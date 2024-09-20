@@ -1,24 +1,24 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Annual CO2 Emissions",
+  "title": "Median house price per suburb (2010-2020)",
   "width": 800,
   "height": 400,
-  "projection": {
-    "type": "equalEarth"
-  },
   "params": [
     {
-      "name": "SelectedYear",
-      "value": 2000,
+      "name": "Year_selection",
+      "value": 2018,
       "bind": {
         "input": "range",
-        "min": 2000,
-        "max": 2005,
+        "min": 2010,
+        "max": 2020,
         "step": 1,
-        "name": "Year:    "
+        "name": "Year: "
       }
     }
   ],
+  "projection": {
+    "type": "equalEarth"
+  },
   "layer": [
     {
       "data": {
@@ -30,21 +30,8 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "lightblue"
-      }
-    },
-    {
-      "data": {
-        "url": "ne_110m_graticules_30.json",
-        "format": {
-          "type": "topojson",
-          "feature": "ne_110m_graticules_30"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": null,
-        "stroke": "lightgray",
+        "fill": "lightblue",
+        "stroke": "white",
         "strokeWidth": 1
       }
     },
@@ -68,7 +55,7 @@
           }
         },
         {
-          "filter": "datum.Year == SelectedYear"
+          "filter": "datum.Year == Year_selection"
         }
       ],
       "mark": {
@@ -80,8 +67,8 @@
           "type": "quantitative",
           "scale": {
             "type": "log",
-            "domain": [1000, 100000000],
-            "scheme": "goldorange"
+            "domain": [1000, 10000000],
+            "scheme": "reds"
           }
         },
         "tooltip": [
@@ -95,6 +82,11 @@
             "type": "quantitative",
             "title": "CO2 Emissions",
             "format": ".2s"
+          },
+          {
+            "field": "Year",
+            "type": "quantitative",
+            "title": "Year"
           }
         ]
       }
