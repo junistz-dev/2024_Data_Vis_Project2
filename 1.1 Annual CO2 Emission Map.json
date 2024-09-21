@@ -1,28 +1,28 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Median house price per suburb (2010-2020)",
+  "title": "Annual CO2 Emissions",
   "width": 800,
   "height": 400,
-  "params": [
-    {
-      "name": "Year_selection",
-      "value": 2018,
-      "bind": {
-        "input": "range",
-        "min": 2010,
-        "max": 2020,
-        "step": 1,
-        "name": "Year: "
-      }
-    }
-  ],
   "projection": {
     "type": "equalEarth"
   },
+  "params": [
+    {
+      "name": "SelectedYear",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2005,
+        "step": 1,
+        "name": "Year:    "
+      }
+    }
+  ],
   "layer": [
     {
       "data": {
-        "url": "ne_10m_ocean.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/main/ne_10m_ocean.json",
         "format": {
           "type": "topojson",
           "feature": "ne_10m_ocean"
@@ -30,14 +30,27 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "lightblue",
-        "stroke": "white",
+        "fill": "lightblue"
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/main/ne_110m_graticules_30.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_graticules_30"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "lightgray",
         "strokeWidth": 1
       }
     },
     {
       "data": {
-        "url": "ne_110m_admin_0_countries.topojson",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/main/ne_110m_admin_0_countries.topojson",
         "format": {
           "type": "topojson",
           "feature": "ne_110m_admin_0_countries"
@@ -45,18 +58,18 @@
       },
       "transform": [
         {
-          "lookup": "properties.NAME",
+          "lookup": "properties.NAME_EN",
           "from": {
             "data": {
-              "url": "data/Annual CO2 emissions.csv"
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/main/data/Annual%20CO2%20emissions.csv"
             },
             "key": "Entity",
-            "fields": ["Annual emissions", "Year"]
+            "fields": ["Entity","Annual emissions", "Year"]
           }
         },
         {
-          "filter": "datum.Year == Year_selection"
-        }
+          "filter": "datum.Year == SelectedYear"
+          }
       ],
       "mark": {
         "type": "geoshape"
@@ -67,8 +80,8 @@
           "type": "quantitative",
           "scale": {
             "type": "log",
-            "domain": [1000, 10000000],
-            "scheme": "reds"
+            "domain": [1000,100000000],
+            "scheme": "goldorange"
           }
         },
         "tooltip": [
@@ -82,15 +95,10 @@
             "type": "quantitative",
             "title": "CO2 Emissions",
             "format": ".2s"
-          },
-          {
-            "field": "Year",
-            "type": "quantitative",
-            "title": "Year"
           }
         ]
       }
     }
-  ],
+  ],  
   "config": {}
 }
