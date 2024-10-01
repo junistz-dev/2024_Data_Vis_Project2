@@ -1,4 +1,4 @@
-state,district,year,date,income_mean,income_median
+state,district,Year,date,income_mean,income_median
 Johor,Batu Pahat,2019,1/1/19,7392,6504
 Johor,Batu Pahat,2022,1/1/22,7419,6347
 Johor,Johor Bahru,2019,1/1/19,9315,7342
