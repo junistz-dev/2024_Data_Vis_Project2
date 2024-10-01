@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Median house price per suburb (2010-2020)",
+  "width": 600,  
+  "height": 500,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2017,
+        "max": 2022,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "scale": 2000, 
+    "center": [107.6, 4.2105]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sarviin-hari/FIT3179_Data/refs/heads/main/malaysia.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "states"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection + ' ' + datum.Year",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "note"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sarviin-hari/FIT3179_Data/refs/heads/main/Labour-Force-Data-Yearly.csv"
+      },
+      "transform": [
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/sarviin-hari/FIT3179_Data/refs/heads/main/malaysia.topojson",
+              "format": {
+                "type": "topojson",
+                "feature": "states"
+              }
+            },
+            "key": "properties.Name"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.Year == Year_selection"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "#fff"},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "lf_employed_per_working_population",
+          "type": "quantitative",
+          "title": ["Percentage (%)"],
+          "scale": {
+            "type": "threshold",
+            "domain": [10, 20, 30, 40, 50, 60, 70, 80, 90],
+            "range": [
+              "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6",
+              "#4292c6", "#2171b5", "#08519c", "#08306b"
+            ]
+          },
+          "legend": {
+            "titleAlign": "center",
+            "titleAnchor": "middle",
+            "titleFontSize": 10,
+            "labelFontSize": 10
+          }
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {
+            "field": "lf_employed_per_working_population",
+            "type": "quantitative",
+            "title": "Percentage of Employed Labour Force to Working Population (%)",
+            "format": ".2f"
+          },
+          {"field": "Year", "type": "quantitative", "title": "Year"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
