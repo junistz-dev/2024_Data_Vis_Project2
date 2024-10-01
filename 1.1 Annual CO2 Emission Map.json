@@ -64,12 +64,12 @@
               "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/main/data/Annual%20CO2%20emissions.csv"
             },
             "key": "Entity",
-            "fields": ["Entity","Annual emissions", "Year"]
+            "fields": ["Annual emissions", "Year"]
           }
         },
         {
           "filter": "datum.Year == SelectedYear"
-          }
+        }
       ],
       "mark": {
         "type": "geoshape"
@@ -80,13 +80,13 @@
           "type": "quantitative",
           "scale": {
             "type": "log",
-            "domain": [1000,100000000],
+            "domain": [1000, 100000000],
             "scheme": "goldorange"
           }
         },
         "tooltip": [
           {
-            "field": "properties.NAME",
+            "field": "properties.NAME_EN",
             "type": "nominal",
             "title": "Country"
           },
