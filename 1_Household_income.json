@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Median house price per suburb (2010-2020)",
-  "width": 600,  
-  "height": 500,
+  "title": "Average Income in Malaysia by State (2019-2022)",
+  "width": 700,  
+  "height": 600,
   "params": [
     {
       "name": "Year_selection",
@@ -85,8 +85,8 @@
           "legend": {
             "titleAlign": "center",
             "titleAnchor": "middle",
-            "titleFontSize": 10,
-            "labelFontSize": 10
+            "titleFontSize": 17,
+            "labelFontSize": 15
           }
         },
         "tooltip": [
