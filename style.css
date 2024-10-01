@@ -1,0 +1,57 @@
+body {
+  background-color: #DCDCDC; /* Gainsboro background color */
+  font-family: Arial, sans-serif; /* Readable font */
+  color: #333; /* Darker text color for better contrast */
+  line-height: 1.6; /* Improved line height for readability */
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+  max-width: 900px; /* Increased maximum width for the container */
+  margin: 20px auto; /* Center the container */
+  background-color: white; /* White background for the content */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1 {
+  font-size: 2em; /* Larger font size for the title */
+  margin-bottom: 10px; /* Space below title */
+  font-family: serif; /* Serif font for the title */
+  color: rgb(24, 61, 74);
+}
+
+h2 {
+  font-size: 1.4em; /* Font size for subheading */
+  margin: 20px 0 10px; /* Space around subheading */
+  font-family: serif; /* Serif font for the title */
+  color: rgb(24, 61, 74);
+}
+
+h3 {
+  font-size: 1.2em; /* Font size for sub-subheading */
+  margin: 15px 0 5px; /* Space around sub-subheading */
+  font-family: sans-serif; /* Sans-serif font for the subheading */
+  color: rgb(24, 61, 74);
+  font-weight: lighter; /* Make the font lighter */
+}
+
+p {
+  font-size: 1.1em; /* Font size for paragraphs */
+  margin-bottom: 15px; /* Space below paragraphs */
+  text-align: justify; /* Justify text alignment for paragraphs */
+  text-justify: inter-word; /* Improve justification */
+}
+
+hr {
+  border: 0; /* Remove default border */
+  height: 1px; /* Set height */
+  background-color: #ccc; /* Light gray color */
+  margin: 20px 0; /* Space around the line */
+}
+
+.vis-container {
+  margin: 20px auto; /* Center the visualization */
+  max-width: 800px; /* Set maximum width for the visualization */
+}
