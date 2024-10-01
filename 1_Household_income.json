@@ -24,7 +24,7 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/sarviin-hari/FIT3179_Data/refs/heads/main/malaysia.topojson",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
         "format": {
           "type": "topojson",
           "feature": "states"
@@ -32,7 +32,7 @@
       },
       "transform": [
         {
-          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection + ' ' + datum.Year",
+          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection + ' ' + datum.year",
           "as": "note"
         }
       ],
@@ -40,7 +40,7 @@
         "type": "geoshape",
         "fill": "#ddd",
         "stroke": "white",
-        "strokeWidth": 1
+        "strokeWidth": 2
       },
       "encoding": {
         "tooltip": {"field": "note"}
@@ -48,14 +48,14 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/sarviin-hari/FIT3179_Data/refs/heads/main/Labour-Force-Data-Yearly.csv"
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/36a49e93eccb232a6539f3ee6cfbed9ecbd4a23c/hh_income_district.csv"
       },
       "transform": [
         {
           "lookup": "state",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/sarviin-hari/FIT3179_Data/refs/heads/main/malaysia.topojson",
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
               "format": {
                 "type": "topojson",
                 "feature": "states"
@@ -71,7 +71,7 @@
       "encoding": {
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
-          "field": "lf_employed_per_working_population",
+          "field": "income_mean",
           "type": "quantitative",
           "title": ["Percentage (%)"],
           "scale": {
@@ -89,7 +89,7 @@
         "tooltip": [
           {"field": "state", "type": "nominal", "title": "State"},
           {
-            "field": "lf_employed_per_working_population",
+            "field": "income_mean",
             "type": "quantitative",
             "title": "Percentage of Employed Labour Force to Working Population (%)",
             "format": ".2f"
