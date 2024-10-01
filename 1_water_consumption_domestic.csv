@@ -1,281 +1,301 @@
 state,sector,date,value,year
-Johor,domestic,2003-01-01,560,2003
-Johor,domestic,2004-01-01,610,2004
-Johor,domestic,2005-01-01,621,2005
-Johor,domestic,2006-01-01,644,2006
-Johor,domestic,2007-01-01,664,2007
-Johor,domestic,2008-01-01,682,2008
-Johor,domestic,2009-01-01,713,2009
-Johor,domestic,2010-01-01,730,2010
-Johor,domestic,2011-01-01,738,2011
-Johor,domestic,2012-01-01,769,2012
-Johor,domestic,2013-01-01,797,2013
-Johor,domestic,2014-01-01,823,2014
-Johor,domestic,2015-01-01,811,2015
-Johor,domestic,2016-01-01,773,2016
-Johor,domestic,2017-01-01,785,2017
-Johor,domestic,2018-01-01,809,2018
-Johor,domestic,2019-01-01,835,2019
-Johor,domestic,2020-01-01,867,2020
-Johor,domestic,2021-01-01,879,2021
-Johor,domestic,2022-01-01,867,2022
-Kedah,domestic,2003-01-01,388,2003
-Kedah,domestic,2004-01-01,412,2004
-Kedah,domestic,2005-01-01,420,2005
-Kedah,domestic,2006-01-01,434,2006
-Kedah,domestic,2007-01-01,471,2007
-Kedah,domestic,2008-01-01,470,2008
-Kedah,domestic,2009-01-01,474,2009
-Kedah,domestic,2010-01-01,444,2010
-Kedah,domestic,2011-01-01,459,2011
-Kedah,domestic,2012-01-01,474,2012
-Kedah,domestic,2013-01-01,487,2013
-Kedah,domestic,2014-01-01,510,2014
-Kedah,domestic,2015-01-01,511,2015
-Kedah,domestic,2016-01-01,525,2016
-Kedah,domestic,2017-01-01,523,2017
-Kedah,domestic,2018-01-01,544,2018
-Kedah,domestic,2019-01-01,551,2019
-Kedah,domestic,2020-01-01,574,2020
-Kedah,domestic,2021-01-01,590,2021
-Kedah,domestic,2022-01-01,560,2022
-Kelantan,domestic,2003-01-01,94,2003
-Kelantan,domestic,2004-01-01,102,2004
-Kelantan,domestic,2005-01-01,111,2005
-Kelantan,domestic,2006-01-01,116,2006
-Kelantan,domestic,2007-01-01,120,2007
-Kelantan,domestic,2008-01-01,122,2008
-Kelantan,domestic,2009-01-01,124,2009
-Kelantan,domestic,2010-01-01,124,2010
-Kelantan,domestic,2011-01-01,123,2011
-Kelantan,domestic,2012-01-01,130,2012
-Kelantan,domestic,2013-01-01,140,2013
-Kelantan,domestic,2014-01-01,154,2014
-Kelantan,domestic,2015-01-01,159,2015
-Kelantan,domestic,2016-01-01,163,2016
-Kelantan,domestic,2017-01-01,162,2017
-Kelantan,domestic,2018-01-01,164,2018
-Kelantan,domestic,2019-01-01,163,2019
-Kelantan,domestic,2020-01-01,170,2020
-Kelantan,domestic,2021-01-01,171,2021
-Kelantan,domestic,2022-01-01,162,2022
-Melaka,domestic,2003-01-01,153,2003
-Melaka,domestic,2004-01-01,144,2004
-Melaka,domestic,2005-01-01,150,2005
-Melaka,domestic,2006-01-01,155,2006
-Melaka,domestic,2007-01-01,196,2007
-Melaka,domestic,2008-01-01,202,2008
-Melaka,domestic,2009-01-01,173,2009
-Melaka,domestic,2010-01-01,177,2010
-Melaka,domestic,2011-01-01,180,2011
-Melaka,domestic,2012-01-01,187,2012
-Melaka,domestic,2013-01-01,193,2013
-Melaka,domestic,2014-01-01,196,2014
-Melaka,domestic,2015-01-01,202,2015
-Melaka,domestic,2016-01-01,206,2016
-Melaka,domestic,2017-01-01,206,2017
-Melaka,domestic,2018-01-01,209,2018
-Melaka,domestic,2019-01-01,210,2019
-Melaka,domestic,2020-01-01,215,2020
-Melaka,domestic,2021-01-01,230,2021
-Melaka,domestic,2022-01-01,228,2022
-Negeri Sembilan,domestic,2003-01-01,184,2003
-Negeri Sembilan,domestic,2004-01-01,183,2004
-Negeri Sembilan,domestic,2005-01-01,181,2005
-Negeri Sembilan,domestic,2006-01-01,190,2006
-Negeri Sembilan,domestic,2007-01-01,231,2007
-Negeri Sembilan,domestic,2008-01-01,237,2008
-Negeri Sembilan,domestic,2009-01-01,213,2009
-Negeri Sembilan,domestic,2010-01-01,229,2010
-Negeri Sembilan,domestic,2011-01-01,239,2011
-Negeri Sembilan,domestic,2012-01-01,247,2012
-Negeri Sembilan,domestic,2013-01-01,255,2013
-Negeri Sembilan,domestic,2014-01-01,259,2014
-Negeri Sembilan,domestic,2015-01-01,276,2015
-Negeri Sembilan,domestic,2016-01-01,287,2016
-Negeri Sembilan,domestic,2017-01-01,288,2017
-Negeri Sembilan,domestic,2018-01-01,293,2018
-Negeri Sembilan,domestic,2019-01-01,294,2019
-Negeri Sembilan,domestic,2020-01-01,318,2020
-Negeri Sembilan,domestic,2021-01-01,327,2021
-Negeri Sembilan,domestic,2022-01-01,307,2022
-Pahang,domestic,2003-01-01,211,2003
-Pahang,domestic,2004-01-01,214,2004
-Pahang,domestic,2005-01-01,223,2005
-Pahang,domestic,2006-01-01,233,2006
-Pahang,domestic,2007-01-01,308,2007
-Pahang,domestic,2008-01-01,320,2008
-Pahang,domestic,2009-01-01,271,2009
-Pahang,domestic,2010-01-01,264,2010
-Pahang,domestic,2011-01-01,286,2011
-Pahang,domestic,2012-01-01,287,2012
-Pahang,domestic,2013-01-01,299,2013
-Pahang,domestic,2014-01-01,303,2014
-Pahang,domestic,2015-01-01,309,2015
-Pahang,domestic,2016-01-01,342,2016
-Pahang,domestic,2017-01-01,333,2017
-Pahang,domestic,2018-01-01,333,2018
-Pahang,domestic,2019-01-01,339,2019
-Pahang,domestic,2020-01-01,367,2020
-Pahang,domestic,2021-01-01,391,2021
-Pahang,domestic,2022-01-01,385,2022
-Perak,domestic,2003-01-01,450,2003
-Perak,domestic,2004-01-01,474,2004
-Perak,domestic,2005-01-01,487,2005
-Perak,domestic,2006-01-01,486,2006
-Perak,domestic,2007-01-01,496,2007
-Perak,domestic,2008-01-01,508,2008
-Perak,domestic,2009-01-01,526,2009
-Perak,domestic,2010-01-01,552,2010
-Perak,domestic,2011-01-01,556,2011
-Perak,domestic,2012-01-01,592,2012
-Perak,domestic,2013-01-01,607,2013
-Perak,domestic,2014-01-01,623,2014
-Perak,domestic,2015-01-01,628,2015
-Perak,domestic,2016-01-01,655,2016
-Perak,domestic,2017-01-01,648,2017
-Perak,domestic,2018-01-01,665,2018
-Perak,domestic,2019-01-01,679,2019
-Perak,domestic,2020-01-01,706,2020
-Perak,domestic,2021-01-01,703,2021
-Perak,domestic,2022-01-01,699,2022
-Perlis,domestic,2003-01-01,47,2003
-Perlis,domestic,2004-01-01,50,2004
-Perlis,domestic,2005-01-01,50,2005
-Perlis,domestic,2006-01-01,51,2006
-Perlis,domestic,2007-01-01,50,2007
-Perlis,domestic,2008-01-01,54,2008
-Perlis,domestic,2009-01-01,49,2009
-Perlis,domestic,2010-01-01,63,2010
-Perlis,domestic,2011-01-01,62,2011
-Perlis,domestic,2012-01-01,57,2012
-Perlis,domestic,2013-01-01,65,2013
-Perlis,domestic,2014-01-01,81,2014
-Perlis,domestic,2015-01-01,81,2015
-Perlis,domestic,2016-01-01,82,2016
-Perlis,domestic,2017-01-01,78,2017
-Perlis,domestic,2018-01-01,80,2018
-Perlis,domestic,2019-01-01,80,2019
-Perlis,domestic,2020-01-01,78,2020
-Perlis,domestic,2021-01-01,80,2021
-Perlis,domestic,2022-01-01,80,2022
-Pulau Pinang,domestic,2003-01-01,377,2003
-Pulau Pinang,domestic,2004-01-01,388,2004
-Pulau Pinang,domestic,2005-01-01,400,2005
-Pulau Pinang,domestic,2006-01-01,408,2006
-Pulau Pinang,domestic,2007-01-01,427,2007
-Pulau Pinang,domestic,2008-01-01,439,2008
-Pulau Pinang,domestic,2009-01-01,451,2009
-Pulau Pinang,domestic,2010-01-01,468,2010
-Pulau Pinang,domestic,2011-01-01,459,2011
-Pulau Pinang,domestic,2012-01-01,475,2012
-Pulau Pinang,domestic,2013-01-01,481,2013
-Pulau Pinang,domestic,2014-01-01,483,2014
-Pulau Pinang,domestic,2015-01-01,483,2015
-Pulau Pinang,domestic,2016-01-01,492,2016
-Pulau Pinang,domestic,2017-01-01,482,2017
-Pulau Pinang,domestic,2018-01-01,491,2018
-Pulau Pinang,domestic,2019-01-01,499,2019
-Pulau Pinang,domestic,2020-01-01,533,2020
-Pulau Pinang,domestic,2021-01-01,547,2021
-Pulau Pinang,domestic,2022-01-01,534,2022
-Sabah,domestic,2003-01-01,156,2003
-Sabah,domestic,2004-01-01,207,2004
-Sabah,domestic,2005-01-01,254,2005
-Sabah,domestic,2006-01-01,294,2006
-Sabah,domestic,2007-01-01,294,2007
-Sabah,domestic,2008-01-01,252,2008
-Sabah,domestic,2009-01-01,259,2009
-Sabah,domestic,2010-01-01,222,2010
-Sabah,domestic,2011-01-01,279,2011
-Sabah,domestic,2012-01-01,305,2012
-Sabah,domestic,2013-01-01,314,2013
-Sabah,domestic,2014-01-01,330,2014
-Sabah,domestic,2015-01-01,315,2015
-Sabah,domestic,2016-01-01,338,2016
-Sabah,domestic,2017-01-01,323,2017
-Sabah,domestic,2018-01-01,341,2018
-Sabah,domestic,2019-01-01,366,2019
-Sabah,domestic,2020-01-01,313,2020
-Sabah,domestic,2021-01-01,425,2021
-Sabah,domestic,2022-01-01,394,2022
-Sarawak,domestic,2003-01-01,289,2003
-Sarawak,domestic,2004-01-01,336,2004
-Sarawak,domestic,2005-01-01,327,2005
-Sarawak,domestic,2006-01-01,352,2006
-Sarawak,domestic,2007-01-01,400,2007
-Sarawak,domestic,2008-01-01,409,2008
-Sarawak,domestic,2009-01-01,441,2009
-Sarawak,domestic,2010-01-01,449,2010
-Sarawak,domestic,2011-01-01,431,2011
-Sarawak,domestic,2012-01-01,432,2012
-Sarawak,domestic,2013-01-01,446,2013
-Sarawak,domestic,2014-01-01,469,2014
-Sarawak,domestic,2015-01-01,478,2015
-Sarawak,domestic,2016-01-01,463,2016
-Sarawak,domestic,2017-01-01,476,2017
-Sarawak,domestic,2018-01-01,487,2018
-Sarawak,domestic,2019-01-01,499,2019
-Sarawak,domestic,2020-01-01,548,2020
-Sarawak,domestic,2021-01-01,579,2021
-Sarawak,domestic,2022-01-01,602,2022
-Selangor,domestic,2003-01-01,1312,2003
-Selangor,domestic,2004-01-01,1474,2004
-Selangor,domestic,2005-01-01,1579,2005
-Selangor,domestic,2006-01-01,1460,2006
-Selangor,domestic,2007-01-01,1520,2007
-Selangor,domestic,2008-01-01,1562,2008
-Selangor,domestic,2009-01-01,1621,2009
-Selangor,domestic,2010-01-01,1655,2010
-Selangor,domestic,2011-01-01,1653,2011
-Selangor,domestic,2012-01-01,1686,2012
-Selangor,domestic,2013-01-01,1735,2013
-Selangor,domestic,2014-01-01,1779,2014
-Selangor,domestic,2015-01-01,1862,2015
-Selangor,domestic,2016-01-01,1883,2016
-Selangor,domestic,2017-01-01,1870,2017
-Selangor,domestic,2018-01-01,1916,2018
-Selangor,domestic,2019-01-01,2012,2019
-Selangor,domestic,2020-01-01,2186,2020
-Selangor,domestic,2021-01-01,2294,2021
-Selangor,domestic,2022-01-01,2230,2022
-Terengganu,domestic,2003-01-01,156,2003
-Terengganu,domestic,2004-01-01,162,2004
-Terengganu,domestic,2005-01-01,172,2005
-Terengganu,domestic,2006-01-01,185,2006
-Terengganu,domestic,2007-01-01,187,2007
-Terengganu,domestic,2008-01-01,190,2008
-Terengganu,domestic,2009-01-01,198,2009
-Terengganu,domestic,2010-01-01,206,2010
-Terengganu,domestic,2011-01-01,208,2011
-Terengganu,domestic,2012-01-01,216,2012
-Terengganu,domestic,2013-01-01,230,2013
-Terengganu,domestic,2014-01-01,241,2014
-Terengganu,domestic,2015-01-01,246,2015
-Terengganu,domestic,2016-01-01,264,2016
-Terengganu,domestic,2017-01-01,256,2017
-Terengganu,domestic,2018-01-01,255,2018
-Terengganu,domestic,2019-01-01,266,2019
-Terengganu,domestic,2020-01-01,286,2020
-Terengganu,domestic,2021-01-01,302,2021
-Terengganu,domestic,2022-01-01,286,2022
-W.P. Labuan,domestic,2003-01-01,16,2003
-W.P. Labuan,domestic,2004-01-01,16,2004
-W.P. Labuan,domestic,2005-01-01,18,2005
-W.P. Labuan,domestic,2006-01-01,17,2006
-W.P. Labuan,domestic,2007-01-01,18,2007
-W.P. Labuan,domestic,2008-01-01,19,2008
-W.P. Labuan,domestic,2009-01-01,18,2009
-W.P. Labuan,domestic,2010-01-01,19,2010
-W.P. Labuan,domestic,2011-01-01,21,2011
-W.P. Labuan,domestic,2012-01-01,16,2012
-W.P. Labuan,domestic,2013-01-01,16,2013
-W.P. Labuan,domestic,2014-01-01,17,2014
-W.P. Labuan,domestic,2015-01-01,17,2015
-W.P. Labuan,domestic,2016-01-01,17,2016
-W.P. Labuan,domestic,2017-01-01,17,2017
-W.P. Labuan,domestic,2018-01-01,18,2018
-W.P. Labuan,domestic,2019-01-01,18,2019
-W.P. Labuan,domestic,2020-01-01,17,2020
-W.P. Labuan,domestic,2021-01-01,20,2021
-W.P. Labuan,domestic,2022-01-01,19,2022
+Johor,domestic,1/1/03,560,2003
+Johor,domestic,1/1/04,610,2004
+Johor,domestic,1/1/05,621,2005
+Johor,domestic,1/1/06,644,2006
+Johor,domestic,1/1/07,664,2007
+Johor,domestic,1/1/08,682,2008
+Johor,domestic,1/1/09,713,2009
+Johor,domestic,1/1/10,730,2010
+Johor,domestic,1/1/11,738,2011
+Johor,domestic,1/1/12,769,2012
+Johor,domestic,1/1/13,797,2013
+Johor,domestic,1/1/14,823,2014
+Johor,domestic,1/1/15,811,2015
+Johor,domestic,1/1/16,773,2016
+Johor,domestic,1/1/17,785,2017
+Johor,domestic,1/1/18,809,2018
+Johor,domestic,1/1/19,835,2019
+Johor,domestic,1/1/20,867,2020
+Johor,domestic,1/1/21,879,2021
+Johor,domestic,1/1/22,867,2022
+Kedah,domestic,1/1/03,388,2003
+Kedah,domestic,1/1/04,412,2004
+Kedah,domestic,1/1/05,420,2005
+Kedah,domestic,1/1/06,434,2006
+Kedah,domestic,1/1/07,471,2007
+Kedah,domestic,1/1/08,470,2008
+Kedah,domestic,1/1/09,474,2009
+Kedah,domestic,1/1/10,444,2010
+Kedah,domestic,1/1/11,459,2011
+Kedah,domestic,1/1/12,474,2012
+Kedah,domestic,1/1/13,487,2013
+Kedah,domestic,1/1/14,510,2014
+Kedah,domestic,1/1/15,511,2015
+Kedah,domestic,1/1/16,525,2016
+Kedah,domestic,1/1/17,523,2017
+Kedah,domestic,1/1/18,544,2018
+Kedah,domestic,1/1/19,551,2019
+Kedah,domestic,1/1/20,574,2020
+Kedah,domestic,1/1/21,590,2021
+Kedah,domestic,1/1/22,560,2022
+Kelantan,domestic,1/1/03,94,2003
+Kelantan,domestic,1/1/04,102,2004
+Kelantan,domestic,1/1/05,111,2005
+Kelantan,domestic,1/1/06,116,2006
+Kelantan,domestic,1/1/07,120,2007
+Kelantan,domestic,1/1/08,122,2008
+Kelantan,domestic,1/1/09,124,2009
+Kelantan,domestic,1/1/10,124,2010
+Kelantan,domestic,1/1/11,123,2011
+Kelantan,domestic,1/1/12,130,2012
+Kelantan,domestic,1/1/13,140,2013
+Kelantan,domestic,1/1/14,154,2014
+Kelantan,domestic,1/1/15,159,2015
+Kelantan,domestic,1/1/16,163,2016
+Kelantan,domestic,1/1/17,162,2017
+Kelantan,domestic,1/1/18,164,2018
+Kelantan,domestic,1/1/19,163,2019
+Kelantan,domestic,1/1/20,170,2020
+Kelantan,domestic,1/1/21,171,2021
+Kelantan,domestic,1/1/22,162,2022
+Melaka,domestic,1/1/03,153,2003
+Melaka,domestic,1/1/04,144,2004
+Melaka,domestic,1/1/05,150,2005
+Melaka,domestic,1/1/06,155,2006
+Melaka,domestic,1/1/07,196,2007
+Melaka,domestic,1/1/08,202,2008
+Melaka,domestic,1/1/09,173,2009
+Melaka,domestic,1/1/10,177,2010
+Melaka,domestic,1/1/11,180,2011
+Melaka,domestic,1/1/12,187,2012
+Melaka,domestic,1/1/13,193,2013
+Melaka,domestic,1/1/14,196,2014
+Melaka,domestic,1/1/15,202,2015
+Melaka,domestic,1/1/16,206,2016
+Melaka,domestic,1/1/17,206,2017
+Melaka,domestic,1/1/18,209,2018
+Melaka,domestic,1/1/19,210,2019
+Melaka,domestic,1/1/20,215,2020
+Melaka,domestic,1/1/21,230,2021
+Melaka,domestic,1/1/22,228,2022
+Negeri Sembilan,domestic,1/1/03,184,2003
+Negeri Sembilan,domestic,1/1/04,183,2004
+Negeri Sembilan,domestic,1/1/05,181,2005
+Negeri Sembilan,domestic,1/1/06,190,2006
+Negeri Sembilan,domestic,1/1/07,231,2007
+Negeri Sembilan,domestic,1/1/08,237,2008
+Negeri Sembilan,domestic,1/1/09,213,2009
+Negeri Sembilan,domestic,1/1/10,229,2010
+Negeri Sembilan,domestic,1/1/11,239,2011
+Negeri Sembilan,domestic,1/1/12,247,2012
+Negeri Sembilan,domestic,1/1/13,255,2013
+Negeri Sembilan,domestic,1/1/14,259,2014
+Negeri Sembilan,domestic,1/1/15,276,2015
+Negeri Sembilan,domestic,1/1/16,287,2016
+Negeri Sembilan,domestic,1/1/17,288,2017
+Negeri Sembilan,domestic,1/1/18,293,2018
+Negeri Sembilan,domestic,1/1/19,294,2019
+Negeri Sembilan,domestic,1/1/20,318,2020
+Negeri Sembilan,domestic,1/1/21,327,2021
+Negeri Sembilan,domestic,1/1/22,307,2022
+Pahang,domestic,1/1/03,211,2003
+Pahang,domestic,1/1/04,214,2004
+Pahang,domestic,1/1/05,223,2005
+Pahang,domestic,1/1/06,233,2006
+Pahang,domestic,1/1/07,308,2007
+Pahang,domestic,1/1/08,320,2008
+Pahang,domestic,1/1/09,271,2009
+Pahang,domestic,1/1/10,264,2010
+Pahang,domestic,1/1/11,286,2011
+Pahang,domestic,1/1/12,287,2012
+Pahang,domestic,1/1/13,299,2013
+Pahang,domestic,1/1/14,303,2014
+Pahang,domestic,1/1/15,309,2015
+Pahang,domestic,1/1/16,342,2016
+Pahang,domestic,1/1/17,333,2017
+Pahang,domestic,1/1/18,333,2018
+Pahang,domestic,1/1/19,339,2019
+Pahang,domestic,1/1/20,367,2020
+Pahang,domestic,1/1/21,391,2021
+Pahang,domestic,1/1/22,385,2022
+Perak,domestic,1/1/03,450,2003
+Perak,domestic,1/1/04,474,2004
+Perak,domestic,1/1/05,487,2005
+Perak,domestic,1/1/06,486,2006
+Perak,domestic,1/1/07,496,2007
+Perak,domestic,1/1/08,508,2008
+Perak,domestic,1/1/09,526,2009
+Perak,domestic,1/1/10,552,2010
+Perak,domestic,1/1/11,556,2011
+Perak,domestic,1/1/12,592,2012
+Perak,domestic,1/1/13,607,2013
+Perak,domestic,1/1/14,623,2014
+Perak,domestic,1/1/15,628,2015
+Perak,domestic,1/1/16,655,2016
+Perak,domestic,1/1/17,648,2017
+Perak,domestic,1/1/18,665,2018
+Perak,domestic,1/1/19,679,2019
+Perak,domestic,1/1/20,706,2020
+Perak,domestic,1/1/21,703,2021
+Perak,domestic,1/1/22,699,2022
+Perlis,domestic,1/1/03,47,2003
+Perlis,domestic,1/1/04,50,2004
+Perlis,domestic,1/1/05,50,2005
+Perlis,domestic,1/1/06,51,2006
+Perlis,domestic,1/1/07,50,2007
+Perlis,domestic,1/1/08,54,2008
+Perlis,domestic,1/1/09,49,2009
+Perlis,domestic,1/1/10,63,2010
+Perlis,domestic,1/1/11,62,2011
+Perlis,domestic,1/1/12,57,2012
+Perlis,domestic,1/1/13,65,2013
+Perlis,domestic,1/1/14,81,2014
+Perlis,domestic,1/1/15,81,2015
+Perlis,domestic,1/1/16,82,2016
+Perlis,domestic,1/1/17,78,2017
+Perlis,domestic,1/1/18,80,2018
+Perlis,domestic,1/1/19,80,2019
+Perlis,domestic,1/1/20,78,2020
+Perlis,domestic,1/1/21,80,2021
+Perlis,domestic,1/1/22,80,2022
+Pulau Pinang,domestic,1/1/03,377,2003
+Pulau Pinang,domestic,1/1/04,388,2004
+Pulau Pinang,domestic,1/1/05,400,2005
+Pulau Pinang,domestic,1/1/06,408,2006
+Pulau Pinang,domestic,1/1/07,427,2007
+Pulau Pinang,domestic,1/1/08,439,2008
+Pulau Pinang,domestic,1/1/09,451,2009
+Pulau Pinang,domestic,1/1/10,468,2010
+Pulau Pinang,domestic,1/1/11,459,2011
+Pulau Pinang,domestic,1/1/12,475,2012
+Pulau Pinang,domestic,1/1/13,481,2013
+Pulau Pinang,domestic,1/1/14,483,2014
+Pulau Pinang,domestic,1/1/15,483,2015
+Pulau Pinang,domestic,1/1/16,492,2016
+Pulau Pinang,domestic,1/1/17,482,2017
+Pulau Pinang,domestic,1/1/18,491,2018
+Pulau Pinang,domestic,1/1/19,499,2019
+Pulau Pinang,domestic,1/1/20,533,2020
+Pulau Pinang,domestic,1/1/21,547,2021
+Pulau Pinang,domestic,1/1/22,534,2022
+Sabah,domestic,1/1/03,156,2003
+Sabah,domestic,1/1/04,207,2004
+Sabah,domestic,1/1/05,254,2005
+Sabah,domestic,1/1/06,294,2006
+Sabah,domestic,1/1/07,294,2007
+Sabah,domestic,1/1/08,252,2008
+Sabah,domestic,1/1/09,259,2009
+Sabah,domestic,1/1/10,222,2010
+Sabah,domestic,1/1/11,279,2011
+Sabah,domestic,1/1/12,305,2012
+Sabah,domestic,1/1/13,314,2013
+Sabah,domestic,1/1/14,330,2014
+Sabah,domestic,1/1/15,315,2015
+Sabah,domestic,1/1/16,338,2016
+Sabah,domestic,1/1/17,323,2017
+Sabah,domestic,1/1/18,341,2018
+Sabah,domestic,1/1/19,366,2019
+Sabah,domestic,1/1/20,313,2020
+Sabah,domestic,1/1/21,425,2021
+Sabah,domestic,1/1/22,394,2022
+Sarawak,domestic,1/1/03,289,2003
+Sarawak,domestic,1/1/04,336,2004
+Sarawak,domestic,1/1/05,327,2005
+Sarawak,domestic,1/1/06,352,2006
+Sarawak,domestic,1/1/07,400,2007
+Sarawak,domestic,1/1/08,409,2008
+Sarawak,domestic,1/1/09,441,2009
+Sarawak,domestic,1/1/10,449,2010
+Sarawak,domestic,1/1/11,431,2011
+Sarawak,domestic,1/1/12,432,2012
+Sarawak,domestic,1/1/13,446,2013
+Sarawak,domestic,1/1/14,469,2014
+Sarawak,domestic,1/1/15,478,2015
+Sarawak,domestic,1/1/16,463,2016
+Sarawak,domestic,1/1/17,476,2017
+Sarawak,domestic,1/1/18,487,2018
+Sarawak,domestic,1/1/19,499,2019
+Sarawak,domestic,1/1/20,548,2020
+Sarawak,domestic,1/1/21,579,2021
+Sarawak,domestic,1/1/22,602,2022
+Selangor,domestic,1/1/03,1312,2003
+Selangor,domestic,1/1/04,1474,2004
+Selangor,domestic,1/1/05,1579,2005
+Selangor,domestic,1/1/06,1460,2006
+Selangor,domestic,1/1/07,1520,2007
+Selangor,domestic,1/1/08,1562,2008
+Selangor,domestic,1/1/09,1621,2009
+Selangor,domestic,1/1/10,1655,2010
+Selangor,domestic,1/1/11,1653,2011
+Selangor,domestic,1/1/12,1686,2012
+Selangor,domestic,1/1/13,1735,2013
+Selangor,domestic,1/1/14,1779,2014
+Selangor,domestic,1/1/15,1862,2015
+Selangor,domestic,1/1/16,1883,2016
+Selangor,domestic,1/1/17,1870,2017
+Selangor,domestic,1/1/18,1916,2018
+Selangor,domestic,1/1/19,2012,2019
+Selangor,domestic,1/1/20,2186,2020
+Selangor,domestic,1/1/21,2294,2021
+Selangor,domestic,1/1/22,2230,2022
+Terengganu,domestic,1/1/03,156,2003
+Terengganu,domestic,1/1/04,162,2004
+Terengganu,domestic,1/1/05,172,2005
+Terengganu,domestic,1/1/06,185,2006
+Terengganu,domestic,1/1/07,187,2007
+Terengganu,domestic,1/1/08,190,2008
+Terengganu,domestic,1/1/09,198,2009
+Terengganu,domestic,1/1/10,206,2010
+Terengganu,domestic,1/1/11,208,2011
+Terengganu,domestic,1/1/12,216,2012
+Terengganu,domestic,1/1/13,230,2013
+Terengganu,domestic,1/1/14,241,2014
+Terengganu,domestic,1/1/15,246,2015
+Terengganu,domestic,1/1/16,264,2016
+Terengganu,domestic,1/1/17,256,2017
+Terengganu,domestic,1/1/18,255,2018
+Terengganu,domestic,1/1/19,266,2019
+Terengganu,domestic,1/1/20,286,2020
+Terengganu,domestic,1/1/21,302,2021
+Terengganu,domestic,1/1/22,286,2022
+Labuan,domestic,1/1/03,16,2003
+Labuan,domestic,1/1/04,16,2004
+Labuan,domestic,1/1/05,18,2005
+Labuan,domestic,1/1/06,17,2006
+Labuan,domestic,1/1/07,18,2007
+Labuan,domestic,1/1/08,19,2008
+Labuan,domestic,1/1/09,18,2009
+Labuan,domestic,1/1/10,19,2010
+Labuan,domestic,1/1/11,21,2011
+Labuan,domestic,1/1/12,16,2012
+Labuan,domestic,1/1/13,16,2013
+Labuan,domestic,1/1/14,17,2014
+Labuan,domestic,1/1/15,17,2015
+Labuan,domestic,1/1/16,17,2016
+Labuan,domestic,1/1/17,17,2017
+Labuan,domestic,1/1/18,18,2018
+Labuan,domestic,1/1/19,18,2019
+Labuan,domestic,1/1/20,17,2020
+Labuan,domestic,1/1/21,20,2021
+Labuan,domestic,1/1/22,19,2022
+Kuala Lumpur,domestic,1/1/03,1312,2003
+Kuala Lumpur,domestic,1/1/04,1474,2004
+Kuala Lumpur,domestic,1/1/05,1579,2005
+Kuala Lumpur,domestic,1/1/06,1460,2006
+Kuala Lumpur,domestic,1/1/07,1520,2007
+Kuala Lumpur,domestic,1/1/08,1562,2008
+Kuala Lumpur,domestic,1/1/09,1621,2009
+Kuala Lumpur,domestic,1/1/10,1655,2010
+Kuala Lumpur,domestic,1/1/11,1653,2011
+Kuala Lumpur,domestic,1/1/12,1686,2012
+Kuala Lumpur,domestic,1/1/13,1735,2013
+Kuala Lumpur,domestic,1/1/14,1779,2014
+Kuala Lumpur,domestic,1/1/15,1862,2015
+Kuala Lumpur,domestic,1/1/16,1883,2016
+Kuala Lumpur,domestic,1/1/17,1870,2017
+Kuala Lumpur,domestic,1/1/18,1916,2018
+Kuala Lumpur,domestic,1/1/19,2012,2019
+Kuala Lumpur,domestic,1/1/20,2186,2020
+Kuala Lumpur,domestic,1/1/21,2294,2021
+Kuala Lumpur,domestic,1/1/22,2230,2022
