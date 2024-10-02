@@ -1,0 +1,140 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Water Usage for Domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
+    "font": "serif",
+    "fontSize": 20,
+    "align": "center"
+  },
+  "width": 700,
+  "height": 600,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2003,
+      "bind": {
+        "input": "range",
+        "min": 2003,
+        "max": 2022,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "scale": 2000,
+    "center": [107.6, 4.2105]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/southeast-asia.geojson"
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "properties.name",
+          "type": "nominal",
+          "title": "Country"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "states"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection + ' ' + datum.Year",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightblue",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "note"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/1_water_consumption_domestic.csv"
+      },
+      "transform": [
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
+              "format": {
+                "type": "topojson",
+                "feature": "states"
+              }
+            },
+            "key": "properties.Name"
+          },
+          "as": "geo"
+        },
+        {
+          "filter": "datum.year == Year_selection"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#fff"
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Million Liters per Day",
+          "scale": {
+            "domain": [0, 2500],
+            "scheme": "yellowgreenblue"
+          },
+          "legend": {
+            "titleAlign": "center",
+            "titleAnchor": "middle",
+            "titleFont": "sans-serif",
+            "titleFontSize": 10,
+            "labelFontSize": 10,
+            "labelFontStyle": "italic"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Million Liters per Day",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
