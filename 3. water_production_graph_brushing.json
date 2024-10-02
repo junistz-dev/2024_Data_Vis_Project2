@@ -11,7 +11,7 @@
   "vconcat": [
     {
       "width": 655, 
-      "height": 400,
+      "height": 200,
       "mark": {
         "type": "area",
         "color": "#1f77b4",
