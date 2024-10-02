@@ -1,4 +1,7 @@
-var vg_1 = "1. Water consumption domestic.json"; 
-vegaEmbed("#map_chart", vg_1).then(function(result) {
-  // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+var vg_domestic = "1. Water consumption domestic.json"; 
+vegaEmbed("#map_chart_1", vg_domestic).then(function(result) {
+}).catch(console.error);
+
+var vg_nondomestic = "2. Water consumption nondomestic.json"; 
+vegaEmbed("#map_chart_2", vg_nondomestic).then(function(result) {
 }).catch(console.error);
