@@ -23,7 +23,7 @@
   ],
   "projection": {
     "type": "mercator",
-    "scale": 2000,
+    "scale": 2500,
     "center": [107.6, 4.2105]
   },
   "layer": [
