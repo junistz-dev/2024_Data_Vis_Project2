@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 400,
+  "title": "Water Production in Malaysia by State",
+  "data": {
+    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/4.%20water_production_state.csv",
+    "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "value",
+      "value": 0, 
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 5000, 
+        "step": 100,
+        "name": "Minimum Production: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.value >= value"
+    }
+  ],
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",  
+      "title": "Year"
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Water Production"
+    },
+    "color": {
+      "field": "state",
+      "type": "nominal",
+      "title": "State"
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal",
+        "title": "State"
+      },
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Water Production"
+      }
+    ]
+  }
+}
