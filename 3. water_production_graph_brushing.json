@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Water Production in Malaysia (Million Liters per Day, 2002-2022)",
+    "font": "serif",
+    "fontSize": 20 
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/3.%20water_production.csv"
+  },
+  "vconcat": [
+    {
+      "width": 655, 
+      "height": 400,
+      "mark": {
+        "type": "area",
+        "color": "#1f77b4",
+        "opacity": 0.6
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "scale": {"domain": {"param": "brush"}},
+          "axis": {"title": ""}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {"title": "Water Production"}
+        }
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "brush",
+          "select": {
+            "type": "interval",
+            "encodings": ["x"]
+          }
+        }
+      ],
+      "width": 655,  
+      "height": 60,
+      "mark": {
+        "type": "area",
+        "color": "#1f77b4",
+        "opacity": 0.3
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "axis": {"title": "Year"}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {"tickCount": 3, "grid": false}
+        }
+      }
+    }
+  ]
+}
