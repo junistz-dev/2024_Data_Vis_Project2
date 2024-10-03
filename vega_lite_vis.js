@@ -1,3 +1,7 @@
+var vg_domestic = "0.water_consumption_mixed.json"; 
+vegaEmbed("#map_chart_0", vg_domestic).then(function(result) {
+}).catch(console.error);
+
 var vg_domestic = "1. Water consumption domestic.json"; 
 vegaEmbed("#map_chart_1", vg_domestic).then(function(result) {
 }).catch(console.error);
