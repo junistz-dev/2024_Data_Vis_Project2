@@ -15,7 +15,16 @@
       }
     }
   ],
-  "title": "Water Access and Production per State",
+  "title":{
+    "text":"Water Access and Production per State",
+    "subtitle":"Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
+    "font":"serif",
+    "fontSize":20,
+    "align":"center",
+    "subtitleFont":"serif",
+    "subtitleFontSize":14,
+    "subtitleColor":"gray"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/5.%20water_access.csv",
     "format": {

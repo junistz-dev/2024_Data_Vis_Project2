@@ -3,14 +3,14 @@
   "title": {
     "text": "Water Production in Malaysia (Million Liters per Day, 2002-2022)",
     "font": "serif",
-    "fontSize": 20 
+    "fontSize": 20
   },
   "data": {
     "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/3.%20water_production.csv"
   },
   "vconcat": [
     {
-      "width": 655, 
+      "width": 800, 
       "height": 200,
       "mark": {
         "type": "area",
@@ -53,7 +53,7 @@
           }
         }
       ],
-      "width": 655,  
+      "width": 800,  
       "height": 60,
       "mark": {
         "type": "area",

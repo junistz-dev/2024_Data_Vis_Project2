@@ -2,7 +2,16 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 700,
   "height": 400,
-  "title": "Water Production in Malaysia by State",
+  "title": {
+  "text": "Water Production in Malaysia by State",
+  "subtitle": "Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
+  "font": "serif",
+    "fontSize": 20,
+    "align": "center",
+    "subtitleFont": "serif",
+    "subtitleFontSize": 14,
+    "subtitleColor": "gray"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/4.%20water_production_state.csv",
     "format": {"type": "csv"}
