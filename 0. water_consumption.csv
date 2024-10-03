@@ -1,0 +1,561 @@
+state,sector,date,value
+Johor,domestic,1/1/03,560
+Johor,domestic,1/1/04,610
+Johor,domestic,1/1/05,621
+Johor,domestic,1/1/06,644
+Johor,domestic,1/1/07,664
+Johor,domestic,1/1/08,682
+Johor,domestic,1/1/09,713
+Johor,domestic,1/1/10,730
+Johor,domestic,1/1/11,738
+Johor,domestic,1/1/12,769
+Johor,domestic,1/1/13,797
+Johor,domestic,1/1/14,823
+Johor,domestic,1/1/15,811
+Johor,domestic,1/1/16,773
+Johor,domestic,1/1/17,785
+Johor,domestic,1/1/18,809
+Johor,domestic,1/1/19,835
+Johor,domestic,1/1/20,867
+Johor,domestic,1/1/21,879
+Johor,domestic,1/1/22,867
+Johor,nondomestic,1/1/03,246
+Johor,nondomestic,1/1/04,225
+Johor,nondomestic,1/1/05,235
+Johor,nondomestic,1/1/06,255
+Johor,nondomestic,1/1/07,289
+Johor,nondomestic,1/1/08,300
+Johor,nondomestic,1/1/09,285
+Johor,nondomestic,1/1/10,306
+Johor,nondomestic,1/1/11,323
+Johor,nondomestic,1/1/12,341
+Johor,nondomestic,1/1/13,366
+Johor,nondomestic,1/1/14,391
+Johor,nondomestic,1/1/15,448
+Johor,nondomestic,1/1/16,513
+Johor,nondomestic,1/1/17,535
+Johor,nondomestic,1/1/18,576
+Johor,nondomestic,1/1/19,599
+Johor,nondomestic,1/1/20,526
+Johor,nondomestic,1/1/21,505
+Johor,nondomestic,1/1/22,536
+Kedah,domestic,1/1/03,388
+Kedah,domestic,1/1/04,412
+Kedah,domestic,1/1/05,420
+Kedah,domestic,1/1/06,434
+Kedah,domestic,1/1/07,471
+Kedah,domestic,1/1/08,470
+Kedah,domestic,1/1/09,474
+Kedah,domestic,1/1/10,444
+Kedah,domestic,1/1/11,459
+Kedah,domestic,1/1/12,474
+Kedah,domestic,1/1/13,487
+Kedah,domestic,1/1/14,510
+Kedah,domestic,1/1/15,511
+Kedah,domestic,1/1/16,525
+Kedah,domestic,1/1/17,523
+Kedah,domestic,1/1/18,544
+Kedah,domestic,1/1/19,551
+Kedah,domestic,1/1/20,574
+Kedah,domestic,1/1/21,590
+Kedah,domestic,1/1/22,560
+Kedah,nondomestic,1/1/03,114
+Kedah,nondomestic,1/1/04,134
+Kedah,nondomestic,1/1/05,137
+Kedah,nondomestic,1/1/06,132
+Kedah,nondomestic,1/1/07,164
+Kedah,nondomestic,1/1/08,167
+Kedah,nondomestic,1/1/09,171
+Kedah,nondomestic,1/1/10,213
+Kedah,nondomestic,1/1/11,181
+Kedah,nondomestic,1/1/12,165
+Kedah,nondomestic,1/1/13,164
+Kedah,nondomestic,1/1/14,187
+Kedah,nondomestic,1/1/15,191
+Kedah,nondomestic,1/1/16,200
+Kedah,nondomestic,1/1/17,195
+Kedah,nondomestic,1/1/18,201
+Kedah,nondomestic,1/1/19,208
+Kedah,nondomestic,1/1/20,193
+Kedah,nondomestic,1/1/21,179
+Kedah,nondomestic,1/1/22,217
+Kelantan,domestic,1/1/03,94
+Kelantan,domestic,1/1/04,102
+Kelantan,domestic,1/1/05,111
+Kelantan,domestic,1/1/06,116
+Kelantan,domestic,1/1/07,120
+Kelantan,domestic,1/1/08,122
+Kelantan,domestic,1/1/09,124
+Kelantan,domestic,1/1/10,124
+Kelantan,domestic,1/1/11,123
+Kelantan,domestic,1/1/12,130
+Kelantan,domestic,1/1/13,140
+Kelantan,domestic,1/1/14,154
+Kelantan,domestic,1/1/15,159
+Kelantan,domestic,1/1/16,163
+Kelantan,domestic,1/1/17,162
+Kelantan,domestic,1/1/18,164
+Kelantan,domestic,1/1/19,163
+Kelantan,domestic,1/1/20,170
+Kelantan,domestic,1/1/21,171
+Kelantan,domestic,1/1/22,162
+Kelantan,nondomestic,1/1/03,35
+Kelantan,nondomestic,1/1/04,40
+Kelantan,nondomestic,1/1/05,46
+Kelantan,nondomestic,1/1/06,48
+Kelantan,nondomestic,1/1/07,49
+Kelantan,nondomestic,1/1/08,51
+Kelantan,nondomestic,1/1/09,53
+Kelantan,nondomestic,1/1/10,55
+Kelantan,nondomestic,1/1/11,56
+Kelantan,nondomestic,1/1/12,58
+Kelantan,nondomestic,1/1/13,62
+Kelantan,nondomestic,1/1/14,71
+Kelantan,nondomestic,1/1/15,73
+Kelantan,nondomestic,1/1/16,76
+Kelantan,nondomestic,1/1/17,79
+Kelantan,nondomestic,1/1/18,85
+Kelantan,nondomestic,1/1/19,85
+Kelantan,nondomestic,1/1/20,75
+Kelantan,nondomestic,1/1/21,68
+Kelantan,nondomestic,1/1/22,77
+Melaka,domestic,1/1/03,153
+Melaka,domestic,1/1/04,144
+Melaka,domestic,1/1/05,150
+Melaka,domestic,1/1/06,155
+Melaka,domestic,1/1/07,196
+Melaka,domestic,1/1/08,202
+Melaka,domestic,1/1/09,173
+Melaka,domestic,1/1/10,177
+Melaka,domestic,1/1/11,180
+Melaka,domestic,1/1/12,187
+Melaka,domestic,1/1/13,193
+Melaka,domestic,1/1/14,196
+Melaka,domestic,1/1/15,202
+Melaka,domestic,1/1/16,206
+Melaka,domestic,1/1/17,206
+Melaka,domestic,1/1/18,209
+Melaka,domestic,1/1/19,210
+Melaka,domestic,1/1/20,215
+Melaka,domestic,1/1/21,230
+Melaka,domestic,1/1/22,228
+Melaka,nondomestic,1/1/03,143
+Melaka,nondomestic,1/1/04,122
+Melaka,nondomestic,1/1/05,135
+Melaka,nondomestic,1/1/06,132
+Melaka,nondomestic,1/1/07,93
+Melaka,nondomestic,1/1/08,98
+Melaka,nondomestic,1/1/09,138
+Melaka,nondomestic,1/1/10,150
+Melaka,nondomestic,1/1/11,161
+Melaka,nondomestic,1/1/12,175
+Melaka,nondomestic,1/1/13,182
+Melaka,nondomestic,1/1/14,180
+Melaka,nondomestic,1/1/15,186
+Melaka,nondomestic,1/1/16,199
+Melaka,nondomestic,1/1/17,207
+Melaka,nondomestic,1/1/18,207
+Melaka,nondomestic,1/1/19,214
+Melaka,nondomestic,1/1/20,189
+Melaka,nondomestic,1/1/21,184
+Melaka,nondomestic,1/1/22,190
+Negeri Sembilan,domestic,1/1/03,184
+Negeri Sembilan,domestic,1/1/04,183
+Negeri Sembilan,domestic,1/1/05,181
+Negeri Sembilan,domestic,1/1/06,190
+Negeri Sembilan,domestic,1/1/07,231
+Negeri Sembilan,domestic,1/1/08,237
+Negeri Sembilan,domestic,1/1/09,213
+Negeri Sembilan,domestic,1/1/10,229
+Negeri Sembilan,domestic,1/1/11,239
+Negeri Sembilan,domestic,1/1/12,247
+Negeri Sembilan,domestic,1/1/13,255
+Negeri Sembilan,domestic,1/1/14,259
+Negeri Sembilan,domestic,1/1/15,276
+Negeri Sembilan,domestic,1/1/16,287
+Negeri Sembilan,domestic,1/1/17,288
+Negeri Sembilan,domestic,1/1/18,293
+Negeri Sembilan,domestic,1/1/19,294
+Negeri Sembilan,domestic,1/1/20,318
+Negeri Sembilan,domestic,1/1/21,327
+Negeri Sembilan,domestic,1/1/22,307
+Negeri Sembilan,nondomestic,1/1/03,122
+Negeri Sembilan,nondomestic,1/1/04,112
+Negeri Sembilan,nondomestic,1/1/05,121
+Negeri Sembilan,nondomestic,1/1/06,108
+Negeri Sembilan,nondomestic,1/1/07,87
+Negeri Sembilan,nondomestic,1/1/08,92
+Negeri Sembilan,nondomestic,1/1/09,122
+Negeri Sembilan,nondomestic,1/1/10,180
+Negeri Sembilan,nondomestic,1/1/11,172
+Negeri Sembilan,nondomestic,1/1/12,192
+Negeri Sembilan,nondomestic,1/1/13,213
+Negeri Sembilan,nondomestic,1/1/14,217
+Negeri Sembilan,nondomestic,1/1/15,217
+Negeri Sembilan,nondomestic,1/1/16,233
+Negeri Sembilan,nondomestic,1/1/17,231
+Negeri Sembilan,nondomestic,1/1/18,238
+Negeri Sembilan,nondomestic,1/1/19,244
+Negeri Sembilan,nondomestic,1/1/20,222
+Negeri Sembilan,nondomestic,1/1/21,222
+Negeri Sembilan,nondomestic,1/1/22,231
+Pahang,domestic,1/1/03,211
+Pahang,domestic,1/1/04,214
+Pahang,domestic,1/1/05,223
+Pahang,domestic,1/1/06,233
+Pahang,domestic,1/1/07,308
+Pahang,domestic,1/1/08,320
+Pahang,domestic,1/1/09,271
+Pahang,domestic,1/1/10,264
+Pahang,domestic,1/1/11,286
+Pahang,domestic,1/1/12,287
+Pahang,domestic,1/1/13,299
+Pahang,domestic,1/1/14,303
+Pahang,domestic,1/1/15,309
+Pahang,domestic,1/1/16,342
+Pahang,domestic,1/1/17,333
+Pahang,domestic,1/1/18,333
+Pahang,domestic,1/1/19,339
+Pahang,domestic,1/1/20,367
+Pahang,domestic,1/1/21,391
+Pahang,domestic,1/1/22,385
+Pahang,nondomestic,1/1/03,131
+Pahang,nondomestic,1/1/04,136
+Pahang,nondomestic,1/1/05,134
+Pahang,nondomestic,1/1/06,142
+Pahang,nondomestic,1/1/07,104
+Pahang,nondomestic,1/1/08,111
+Pahang,nondomestic,1/1/09,96
+Pahang,nondomestic,1/1/10,168
+Pahang,nondomestic,1/1/11,186
+Pahang,nondomestic,1/1/12,209
+Pahang,nondomestic,1/1/13,205
+Pahang,nondomestic,1/1/14,216
+Pahang,nondomestic,1/1/15,223
+Pahang,nondomestic,1/1/16,238
+Pahang,nondomestic,1/1/17,250
+Pahang,nondomestic,1/1/18,256
+Pahang,nondomestic,1/1/19,288
+Pahang,nondomestic,1/1/20,264
+Pahang,nondomestic,1/1/21,251
+Pahang,nondomestic,1/1/22,283
+Perak,domestic,1/1/03,450
+Perak,domestic,1/1/04,474
+Perak,domestic,1/1/05,487
+Perak,domestic,1/1/06,486
+Perak,domestic,1/1/07,496
+Perak,domestic,1/1/08,508
+Perak,domestic,1/1/09,526
+Perak,domestic,1/1/10,552
+Perak,domestic,1/1/11,556
+Perak,domestic,1/1/12,592
+Perak,domestic,1/1/13,607
+Perak,domestic,1/1/14,623
+Perak,domestic,1/1/15,628
+Perak,domestic,1/1/16,655
+Perak,domestic,1/1/17,648
+Perak,domestic,1/1/18,665
+Perak,domestic,1/1/19,679
+Perak,domestic,1/1/20,706
+Perak,domestic,1/1/21,703
+Perak,domestic,1/1/22,699
+Perak,nondomestic,1/1/03,150
+Perak,nondomestic,1/1/04,161
+Perak,nondomestic,1/1/05,175
+Perak,nondomestic,1/1/06,182
+Perak,nondomestic,1/1/07,185
+Perak,nondomestic,1/1/08,190
+Perak,nondomestic,1/1/09,194
+Perak,nondomestic,1/1/10,210
+Perak,nondomestic,1/1/11,216
+Perak,nondomestic,1/1/12,217
+Perak,nondomestic,1/1/13,228
+Perak,nondomestic,1/1/14,236
+Perak,nondomestic,1/1/15,250
+Perak,nondomestic,1/1/16,262
+Perak,nondomestic,1/1/17,260
+Perak,nondomestic,1/1/18,268
+Perak,nondomestic,1/1/19,278
+Perak,nondomestic,1/1/20,266
+Perak,nondomestic,1/1/21,266
+Perak,nondomestic,1/1/22,289
+Perlis,domestic,1/1/03,47
+Perlis,domestic,1/1/04,50
+Perlis,domestic,1/1/05,50
+Perlis,domestic,1/1/06,51
+Perlis,domestic,1/1/07,50
+Perlis,domestic,1/1/08,54
+Perlis,domestic,1/1/09,49
+Perlis,domestic,1/1/10,63
+Perlis,domestic,1/1/11,62
+Perlis,domestic,1/1/12,57
+Perlis,domestic,1/1/13,65
+Perlis,domestic,1/1/14,81
+Perlis,domestic,1/1/15,81
+Perlis,domestic,1/1/16,82
+Perlis,domestic,1/1/17,78
+Perlis,domestic,1/1/18,80
+Perlis,domestic,1/1/19,80
+Perlis,domestic,1/1/20,78
+Perlis,domestic,1/1/21,80
+Perlis,domestic,1/1/22,80
+Perlis,nondomestic,1/1/03,7
+Perlis,nondomestic,1/1/04,12
+Perlis,nondomestic,1/1/05,9
+Perlis,nondomestic,1/1/06,10
+Perlis,nondomestic,1/1/07,14
+Perlis,nondomestic,1/1/08,9
+Perlis,nondomestic,1/1/09,11
+Perlis,nondomestic,1/1/10,9
+Perlis,nondomestic,1/1/11,11
+Perlis,nondomestic,1/1/12,10
+Perlis,nondomestic,1/1/13,15
+Perlis,nondomestic,1/1/14,15
+Perlis,nondomestic,1/1/15,15
+Perlis,nondomestic,1/1/16,14
+Perlis,nondomestic,1/1/17,11
+Perlis,nondomestic,1/1/18,10
+Perlis,nondomestic,1/1/19,12
+Perlis,nondomestic,1/1/20,12
+Perlis,nondomestic,1/1/21,11
+Perlis,nondomestic,1/1/22,18
+Pulau Pinang,domestic,1/1/03,377
+Pulau Pinang,domestic,1/1/04,388
+Pulau Pinang,domestic,1/1/05,400
+Pulau Pinang,domestic,1/1/06,408
+Pulau Pinang,domestic,1/1/07,427
+Pulau Pinang,domestic,1/1/08,439
+Pulau Pinang,domestic,1/1/09,451
+Pulau Pinang,domestic,1/1/10,468
+Pulau Pinang,domestic,1/1/11,459
+Pulau Pinang,domestic,1/1/12,475
+Pulau Pinang,domestic,1/1/13,481
+Pulau Pinang,domestic,1/1/14,483
+Pulau Pinang,domestic,1/1/15,483
+Pulau Pinang,domestic,1/1/16,492
+Pulau Pinang,domestic,1/1/17,482
+Pulau Pinang,domestic,1/1/18,491
+Pulau Pinang,domestic,1/1/19,499
+Pulau Pinang,domestic,1/1/20,533
+Pulau Pinang,domestic,1/1/21,547
+Pulau Pinang,domestic,1/1/22,534
+Pulau Pinang,nondomestic,1/1/03,235
+Pulau Pinang,nondomestic,1/1/04,250
+Pulau Pinang,nondomestic,1/1/05,261
+Pulau Pinang,nondomestic,1/1/06,275
+Pulau Pinang,nondomestic,1/1/07,293
+Pulau Pinang,nondomestic,1/1/08,305
+Pulau Pinang,nondomestic,1/1/09,288
+Pulau Pinang,nondomestic,1/1/10,315
+Pulau Pinang,nondomestic,1/1/11,317
+Pulau Pinang,nondomestic,1/1/12,321
+Pulau Pinang,nondomestic,1/1/13,327
+Pulau Pinang,nondomestic,1/1/14,330
+Pulau Pinang,nondomestic,1/1/15,329
+Pulau Pinang,nondomestic,1/1/16,335
+Pulau Pinang,nondomestic,1/1/17,344
+Pulau Pinang,nondomestic,1/1/18,349
+Pulau Pinang,nondomestic,1/1/19,343
+Pulau Pinang,nondomestic,1/1/20,314
+Pulau Pinang,nondomestic,1/1/21,313
+Pulau Pinang,nondomestic,1/1/22,334
+Sabah,domestic,1/1/03,156
+Sabah,domestic,1/1/04,207
+Sabah,domestic,1/1/05,254
+Sabah,domestic,1/1/06,294
+Sabah,domestic,1/1/07,294
+Sabah,domestic,1/1/08,252
+Sabah,domestic,1/1/09,259
+Sabah,domestic,1/1/10,222
+Sabah,domestic,1/1/11,279
+Sabah,domestic,1/1/12,305
+Sabah,domestic,1/1/13,314
+Sabah,domestic,1/1/14,330
+Sabah,domestic,1/1/15,315
+Sabah,domestic,1/1/16,338
+Sabah,domestic,1/1/17,323
+Sabah,domestic,1/1/18,341
+Sabah,domestic,1/1/19,366
+Sabah,domestic,1/1/20,313
+Sabah,domestic,1/1/21,425
+Sabah,domestic,1/1/22,394
+Sabah,nondomestic,1/1/03,97
+Sabah,nondomestic,1/1/04,106
+Sabah,nondomestic,1/1/05,62
+Sabah,nondomestic,1/1/06,26
+Sabah,nondomestic,1/1/07,44
+Sabah,nondomestic,1/1/08,112
+Sabah,nondomestic,1/1/09,185
+Sabah,nondomestic,1/1/10,175
+Sabah,nondomestic,1/1/11,206
+Sabah,nondomestic,1/1/12,225
+Sabah,nondomestic,1/1/13,216
+Sabah,nondomestic,1/1/14,248
+Sabah,nondomestic,1/1/15,237
+Sabah,nondomestic,1/1/16,249
+Sabah,nondomestic,1/1/17,259
+Sabah,nondomestic,1/1/18,275
+Sabah,nondomestic,1/1/19,278
+Sabah,nondomestic,1/1/20,224
+Sabah,nondomestic,1/1/21,225
+Sabah,nondomestic,1/1/22,238
+Sarawak,domestic,1/1/03,289
+Sarawak,domestic,1/1/04,336
+Sarawak,domestic,1/1/05,327
+Sarawak,domestic,1/1/06,352
+Sarawak,domestic,1/1/07,400
+Sarawak,domestic,1/1/08,409
+Sarawak,domestic,1/1/09,441
+Sarawak,domestic,1/1/10,449
+Sarawak,domestic,1/1/11,431
+Sarawak,domestic,1/1/12,432
+Sarawak,domestic,1/1/13,446
+Sarawak,domestic,1/1/14,469
+Sarawak,domestic,1/1/15,478
+Sarawak,domestic,1/1/16,463
+Sarawak,domestic,1/1/17,476
+Sarawak,domestic,1/1/18,487
+Sarawak,domestic,1/1/19,499
+Sarawak,domestic,1/1/20,548
+Sarawak,domestic,1/1/21,579
+Sarawak,domestic,1/1/22,602
+Sarawak,nondomestic,1/1/03,201
+Sarawak,nondomestic,1/1/04,227
+Sarawak,nondomestic,1/1/05,220
+Sarawak,nondomestic,1/1/06,226
+Sarawak,nondomestic,1/1/07,259
+Sarawak,nondomestic,1/1/08,266
+Sarawak,nondomestic,1/1/09,274
+Sarawak,nondomestic,1/1/10,324
+Sarawak,nondomestic,1/1/11,321
+Sarawak,nondomestic,1/1/12,336
+Sarawak,nondomestic,1/1/13,345
+Sarawak,nondomestic,1/1/14,341
+Sarawak,nondomestic,1/1/15,368
+Sarawak,nondomestic,1/1/16,385
+Sarawak,nondomestic,1/1/17,395
+Sarawak,nondomestic,1/1/18,409
+Sarawak,nondomestic,1/1/19,468
+Sarawak,nondomestic,1/1/20,448
+Sarawak,nondomestic,1/1/21,440
+Sarawak,nondomestic,1/1/22,463
+Selangor,domestic,1/1/03,1312
+Selangor,domestic,1/1/04,1474
+Selangor,domestic,1/1/05,1579
+Selangor,domestic,1/1/06,1460
+Selangor,domestic,1/1/07,1520
+Selangor,domestic,1/1/08,1562
+Selangor,domestic,1/1/09,1621
+Selangor,domestic,1/1/10,1655
+Selangor,domestic,1/1/11,1653
+Selangor,domestic,1/1/12,1686
+Selangor,domestic,1/1/13,1735
+Selangor,domestic,1/1/14,1779
+Selangor,domestic,1/1/15,1862
+Selangor,domestic,1/1/16,1883
+Selangor,domestic,1/1/17,1870
+Selangor,domestic,1/1/18,1916
+Selangor,domestic,1/1/19,2012
+Selangor,domestic,1/1/20,2186
+Selangor,domestic,1/1/21,2294
+Selangor,domestic,1/1/22,2230
+Selangor,nondomestic,1/1/03,673
+Selangor,nondomestic,1/1/04,694
+Selangor,nondomestic,1/1/05,717
+Selangor,nondomestic,1/1/06,932
+Selangor,nondomestic,1/1/07,969
+Selangor,nondomestic,1/1/08,1006
+Selangor,nondomestic,1/1/09,1029
+Selangor,nondomestic,1/1/10,1090
+Selangor,nondomestic,1/1/11,1135
+Selangor,nondomestic,1/1/12,1207
+Selangor,nondomestic,1/1/13,1254
+Selangor,nondomestic,1/1/14,1268
+Selangor,nondomestic,1/1/15,1316
+Selangor,nondomestic,1/1/16,1336
+Selangor,nondomestic,1/1/17,1373
+Selangor,nondomestic,1/1/18,1400
+Selangor,nondomestic,1/1/19,1459
+Selangor,nondomestic,1/1/20,1362
+Selangor,nondomestic,1/1/21,1315
+Selangor,nondomestic,1/1/22,1350
+Terengganu,domestic,1/1/03,156
+Terengganu,domestic,1/1/04,162
+Terengganu,domestic,1/1/05,172
+Terengganu,domestic,1/1/06,185
+Terengganu,domestic,1/1/07,187
+Terengganu,domestic,1/1/08,190
+Terengganu,domestic,1/1/09,198
+Terengganu,domestic,1/1/10,206
+Terengganu,domestic,1/1/11,208
+Terengganu,domestic,1/1/12,216
+Terengganu,domestic,1/1/13,230
+Terengganu,domestic,1/1/14,241
+Terengganu,domestic,1/1/15,246
+Terengganu,domestic,1/1/16,264
+Terengganu,domestic,1/1/17,256
+Terengganu,domestic,1/1/18,255
+Terengganu,domestic,1/1/19,266
+Terengganu,domestic,1/1/20,286
+Terengganu,domestic,1/1/21,302
+Terengganu,domestic,1/1/22,286
+Terengganu,nondomestic,1/1/03,118
+Terengganu,nondomestic,1/1/04,108
+Terengganu,nondomestic,1/1/05,105
+Terengganu,nondomestic,1/1/06,124
+Terengganu,nondomestic,1/1/07,135
+Terengganu,nondomestic,1/1/08,149
+Terengganu,nondomestic,1/1/09,155
+Terengganu,nondomestic,1/1/10,157
+Terengganu,nondomestic,1/1/11,163
+Terengganu,nondomestic,1/1/12,173
+Terengganu,nondomestic,1/1/13,183
+Terengganu,nondomestic,1/1/14,179
+Terengganu,nondomestic,1/1/15,182
+Terengganu,nondomestic,1/1/16,176
+Terengganu,nondomestic,1/1/17,171
+Terengganu,nondomestic,1/1/18,169
+Terengganu,nondomestic,1/1/19,176
+Terengganu,nondomestic,1/1/20,165
+Terengganu,nondomestic,1/1/21,161
+Terengganu,nondomestic,1/1/22,173
+W.P. Labuan,domestic,1/1/03,16
+W.P. Labuan,domestic,1/1/04,16
+W.P. Labuan,domestic,1/1/05,18
+W.P. Labuan,domestic,1/1/06,17
+W.P. Labuan,domestic,1/1/07,18
+W.P. Labuan,domestic,1/1/08,19
+W.P. Labuan,domestic,1/1/09,18
+W.P. Labuan,domestic,1/1/10,19
+W.P. Labuan,domestic,1/1/11,21
+W.P. Labuan,domestic,1/1/12,16
+W.P. Labuan,domestic,1/1/13,16
+W.P. Labuan,domestic,1/1/14,17
+W.P. Labuan,domestic,1/1/15,17
+W.P. Labuan,domestic,1/1/16,17
+W.P. Labuan,domestic,1/1/17,17
+W.P. Labuan,domestic,1/1/18,18
+W.P. Labuan,domestic,1/1/19,18
+W.P. Labuan,domestic,1/1/20,17
+W.P. Labuan,domestic,1/1/21,20
+W.P. Labuan,domestic,1/1/22,19
+W.P. Labuan,nondomestic,1/1/03,9
+W.P. Labuan,nondomestic,1/1/04,10
+W.P. Labuan,nondomestic,1/1/05,10
+W.P. Labuan,nondomestic,1/1/06,10
+W.P. Labuan,nondomestic,1/1/07,11
+W.P. Labuan,nondomestic,1/1/08,12
+W.P. Labuan,nondomestic,1/1/09,18
+W.P. Labuan,nondomestic,1/1/10,18
+W.P. Labuan,nondomestic,1/1/11,20
+W.P. Labuan,nondomestic,1/1/12,30
+W.P. Labuan,nondomestic,1/1/13,31
+W.P. Labuan,nondomestic,1/1/14,31
+W.P. Labuan,nondomestic,1/1/15,32
+W.P. Labuan,nondomestic,1/1/16,33
+W.P. Labuan,nondomestic,1/1/17,31
+W.P. Labuan,nondomestic,1/1/18,33
+W.P. Labuan,nondomestic,1/1/19,36
+W.P. Labuan,nondomestic,1/1/20,40
+W.P. Labuan,nondomestic,1/1/21,32
+W.P. Labuan,nondomestic,1/1/22,33
