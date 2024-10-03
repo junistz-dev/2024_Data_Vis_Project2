@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Water Usage for Non-Domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
+    "text": "Water Usage non domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
     "font": "serif",
     "fontSize": 20,
     "align": "center"
