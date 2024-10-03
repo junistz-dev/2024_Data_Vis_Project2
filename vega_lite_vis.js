@@ -13,3 +13,7 @@ vegaEmbed("#map_chart_3", vg_production).then(function(result) {
 var vg_production = "4. water_production_state_line.json"; 
 vegaEmbed("#map_chart_4", vg_production).then(function(result) {
 }).catch(console.error);
+
+var vg_production = "5. water_access_bubble.json"; 
+vegaEmbed("#map_chart_5", vg_production).then(function(result) {
+}).catch(console.error);
