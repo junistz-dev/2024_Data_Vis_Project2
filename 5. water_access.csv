@@ -1,0 +1,323 @@
+state,strata,date,proportion,water_production,year
+Johor,overall,2000-01-01,99,1158,2000
+Johor,overall,2001-01-01,99.7,1201,2001
+Johor,overall,2002-01-01,99.6,1260,2002
+Johor,overall,2003-01-01,99.7,1118,2003
+Johor,overall,2004-01-01,99.4,1003,2004
+Johor,overall,2005-01-01,99.5,1003,2005
+Johor,overall,2006-01-01,99.5,1363,2006
+Johor,overall,2007-01-01,99.8,1387,2007
+Johor,overall,2008-01-01,99.8,1430,2008
+Johor,overall,2009-01-01,99.8,1466,2009
+Johor,overall,2010-01-01,99.8,1476,2010
+Johor,overall,2011-01-01,99.8,1528,2011
+Johor,overall,2012-01-01,99.8,1512,2012
+Johor,overall,2013-01-01,99.8,1508,2013
+Johor,overall,2014-01-01,99.8,1568,2014
+Johor,overall,2015-01-01,99.8,1619,2015
+Johor,overall,2016-01-01,99.8,1737,2016
+Johor,overall,2017-01-01,99.8,1680,2017
+Johor,overall,2018-01-01,99.8,1757,2018
+Johor,overall,2019-01-01,99.8,1888,2019
+Johor,overall,2020-01-01,99.9,1831,2020
+Johor,overall,2021-01-01,99.9,1848,2021
+Johor,overall,2022-01-01,99.9,1837,2022
+Kedah,overall,2000-01-01,96,804,2000
+Kedah,overall,2001-01-01,98.2,841,2001
+Kedah,overall,2002-01-01,98.7,864,2002
+Kedah,overall,2003-01-01,99.4,928,2003
+Kedah,overall,2004-01-01,99.3,976,2004
+Kedah,overall,2005-01-01,99.5,976,2005
+Kedah,overall,2006-01-01,99,1029,2006
+Kedah,overall,2007-01-01,96,1088,2007
+Kedah,overall,2008-01-01,97,1157,2008
+Kedah,overall,2009-01-01,98,1173,2009
+Kedah,overall,2010-01-01,98.2,1173,2010
+Kedah,overall,2011-01-01,98.2,1237,2011
+Kedah,overall,2012-01-01,98.2,1292,2012
+Kedah,overall,2013-01-01,98.3,1322,2013
+Kedah,overall,2014-01-01,98.3,1299,2014
+Kedah,overall,2015-01-01,98.3,1315,2015
+Kedah,overall,2016-01-01,98.3,1361,2016
+Kedah,overall,2017-01-01,98.3,1370,2017
+Kedah,overall,2018-01-01,98.3,1446,2018
+Kedah,overall,2019-01-01,98.3,1474,2019
+Kedah,overall,2020-01-01,98.3,1487,2020
+Kedah,overall,2021-01-01,98.3,1538,2021
+Kedah,overall,2022-01-01,98.3,1597,2022
+Kelantan,overall,2000-01-01,53,213,2000
+Kelantan,overall,2001-01-01,57.5,216,2001
+Kelantan,overall,2002-01-01,61.7,216,2002
+Kelantan,overall,2003-01-01,62.1,228,2003
+Kelantan,overall,2004-01-01,63.8,275,2004
+Kelantan,overall,2005-01-01,70,275,2005
+Kelantan,overall,2006-01-01,72,295,2006
+Kelantan,overall,2007-01-01,53,328,2007
+Kelantan,overall,2008-01-01,54.2,341,2008
+Kelantan,overall,2009-01-01,55.7,343,2009
+Kelantan,overall,2010-01-01,55.5,377,2010
+Kelantan,overall,2011-01-01,57.3,403,2011
+Kelantan,overall,2012-01-01,59.9,406,2012
+Kelantan,overall,2013-01-01,61.5,430,2013
+Kelantan,overall,2014-01-01,63.2,445,2014
+Kelantan,overall,2015-01-01,64,454,2015
+Kelantan,overall,2016-01-01,64.7,471,2016
+Kelantan,overall,2017-01-01,68,475,2017
+Kelantan,overall,2018-01-01,69.3,491,2018
+Kelantan,overall,2019-01-01,70.7,503,2019
+Kelantan,overall,2020-01-01,70.7,507,2020
+Kelantan,overall,2021-01-01,73.1,504,2021
+Kelantan,overall,2022-01-01,73.9,517,2022
+Melaka,overall,2000-01-01,99,324,2000
+Melaka,overall,2001-01-01,99.7,320,2001
+Melaka,overall,2002-01-01,99.6,350,2002
+Melaka,overall,2003-01-01,99.7,375,2003
+Melaka,overall,2004-01-01,99.6,399,2004
+Melaka,overall,2005-01-01,99.8,415,2005
+Melaka,overall,2006-01-01,100,393,2006
+Melaka,overall,2007-01-01,100,411,2007
+Melaka,overall,2008-01-01,100,428,2008
+Melaka,overall,2009-01-01,100,443,2009
+Melaka,overall,2010-01-01,100,443,2010
+Melaka,overall,2011-01-01,100,455,2011
+Melaka,overall,2012-01-01,100,478,2012
+Melaka,overall,2013-01-01,100,487,2013
+Melaka,overall,2014-01-01,100,532,2014
+Melaka,overall,2015-01-01,100,519,2015
+Melaka,overall,2016-01-01,100,510,2016
+Melaka,overall,2017-01-01,100,513,2017
+Melaka,overall,2018-01-01,100,528,2018
+Melaka,overall,2019-01-01,100,538,2019
+Melaka,overall,2020-01-01,100,578,2020
+Melaka,overall,2021-01-01,100,603,2021
+Melaka,overall,2022-01-01,100,649,2022
+Negeri Sembilan,overall,2000-01-01,99,490,2000
+Negeri Sembilan,overall,2001-01-01,99.5,520,2001
+Negeri Sembilan,overall,2002-01-01,99.5,620,2002
+Negeri Sembilan,overall,2003-01-01,99.5,634,2003
+Negeri Sembilan,overall,2004-01-01,99.6,649,2004
+Negeri Sembilan,overall,2005-01-01,99.8,642,2005
+Negeri Sembilan,overall,2006-01-01,100,746,2006
+Negeri Sembilan,overall,2007-01-01,99.8,690,2007
+Negeri Sembilan,overall,2008-01-01,99.8,665,2008
+Negeri Sembilan,overall,2009-01-01,99.8,659,2009
+Negeri Sembilan,overall,2010-01-01,99.8,724,2010
+Negeri Sembilan,overall,2011-01-01,99.9,742,2011
+Negeri Sembilan,overall,2012-01-01,99.9,735,2012
+Negeri Sembilan,overall,2013-01-01,99.9,736,2013
+Negeri Sembilan,overall,2014-01-01,99.9,744,2014
+Negeri Sembilan,overall,2015-01-01,99.9,752,2015
+Negeri Sembilan,overall,2016-01-01,99.9,779,2016
+Negeri Sembilan,overall,2017-01-01,99.9,771,2017
+Negeri Sembilan,overall,2018-01-01,99.9,780,2018
+Negeri Sembilan,overall,2019-01-01,99.9,784,2019
+Negeri Sembilan,overall,2020-01-01,99.9,795,2020
+Negeri Sembilan,overall,2021-01-01,99.9,811,2021
+Negeri Sembilan,overall,2022-01-01,99.9,848,2022
+Pahang,overall,2000-01-01,93,610,2000
+Pahang,overall,2001-01-01,92.8,927,2001
+Pahang,overall,2002-01-01,92.7,632,2002
+Pahang,overall,2003-01-01,92.8,627,2003
+Pahang,overall,2004-01-01,94.5,687,2004
+Pahang,overall,2005-01-01,95.5,709,2005
+Pahang,overall,2006-01-01,93.5,701,2006
+Pahang,overall,2007-01-01,93,890,2007
+Pahang,overall,2008-01-01,93,915,2008
+Pahang,overall,2009-01-01,97.8,915,2009
+Pahang,overall,2010-01-01,98,966,2010
+Pahang,overall,2011-01-01,98,1079,2011
+Pahang,overall,2012-01-01,98,1089,2012
+Pahang,overall,2013-01-01,98,1065,2013
+Pahang,overall,2014-01-01,98,1108,2014
+Pahang,overall,2015-01-01,98,1129,2015
+Pahang,overall,2016-01-01,98,1111,2016
+Pahang,overall,2017-01-01,98,1109,2017
+Pahang,overall,2018-01-01,98,1158,2018
+Pahang,overall,2019-01-01,98,1194,2019
+Pahang,overall,2020-01-01,98,1269,2020
+Pahang,overall,2021-01-01,98,1281,2021
+Pahang,overall,2022-01-01,98,1337,2022
+Perak,overall,2000-01-01,99,812,2000
+Perak,overall,2001-01-01,99.6,865,2001
+Perak,overall,2002-01-01,99.5,830,2002
+Perak,overall,2003-01-01,99.6,897,2003
+Perak,overall,2004-01-01,99.6,897,2004
+Perak,overall,2005-01-01,99.8,955,2005
+Perak,overall,2006-01-01,99.8,963,2006
+Perak,overall,2007-01-01,99,973,2007
+Perak,overall,2008-01-01,99.5,1014,2008
+Perak,overall,2009-01-01,99.2,1039,2009
+Perak,overall,2010-01-01,99.2,1080,2010
+Perak,overall,2011-01-01,99.6,1109,2011
+Perak,overall,2012-01-01,99.6,1155,2012
+Perak,overall,2013-01-01,99.6,1215,2013
+Perak,overall,2014-01-01,99.6,1224,2014
+Perak,overall,2015-01-01,99.6,1289,2015
+Perak,overall,2016-01-01,99.6,1317,2016
+Perak,overall,2017-01-01,99.6,1314,2017
+Perak,overall,2018-01-01,99.6,1333,2018
+Perak,overall,2019-01-01,99.6,1357,2019
+Perak,overall,2020-01-01,99.6,1392,2020
+Perak,overall,2021-01-01,99.6,1386,2021
+Perak,overall,2022-01-01,99.6,1418,2022
+Perlis,overall,2000-01-01,98,84,2000
+Perlis,overall,2001-01-01,98,84,2001
+Perlis,overall,2002-01-01,99.2,88,2002
+Perlis,overall,2003-01-01,99.3,92,2003
+Perlis,overall,2004-01-01,99.3,93,2004
+Perlis,overall,2005-01-01,99.5,92,2005
+Perlis,overall,2006-01-01,99.5,95,2006
+Perlis,overall,2007-01-01,99,97,2007
+Perlis,overall,2008-01-01,99.4,108,2008
+Perlis,overall,2009-01-01,99.4,109,2009
+Perlis,overall,2010-01-01,99.4,147,2010
+Perlis,overall,2011-01-01,99.5,191,2011
+Perlis,overall,2012-01-01,99.5,211,2012
+Perlis,overall,2013-01-01,99.5,206,2013
+Perlis,overall,2014-01-01,99.5,208,2014
+Perlis,overall,2015-01-01,99.5,220,2015
+Perlis,overall,2016-01-01,99.5,243,2016
+Perlis,overall,2017-01-01,99.5,228,2017
+Perlis,overall,2018-01-01,99.5,234,2018
+Perlis,overall,2019-01-01,99.5,252,2019
+Perlis,overall,2020-01-01,99.5,243,2020
+Perlis,overall,2021-01-01,99.5,236,2021
+Perlis,overall,2022-01-01,99.5,243,2022
+Pulau Pinang,overall,2000-01-01,99,741,2000
+Pulau Pinang,overall,2001-01-01,99.8,763,2001
+Pulau Pinang,overall,2002-01-01,99.8,767,2002
+Pulau Pinang,overall,2003-01-01,99.8,759,2003
+Pulau Pinang,overall,2004-01-01,99.6,800,2004
+Pulau Pinang,overall,2005-01-01,99.8,819,2005
+Pulau Pinang,overall,2006-01-01,99.5,840,2006
+Pulau Pinang,overall,2007-01-01,99.9,865,2007
+Pulau Pinang,overall,2008-01-01,99.9,896,2008
+Pulau Pinang,overall,2009-01-01,99.9,913,2009
+Pulau Pinang,overall,2010-01-01,99.9,957,2010
+Pulau Pinang,overall,2011-01-01,99.8,951,2011
+Pulau Pinang,overall,2012-01-01,99.9,964,2012
+Pulau Pinang,overall,2013-01-01,99.9,988,2013
+Pulau Pinang,overall,2014-01-01,99.9,995,2014
+Pulau Pinang,overall,2015-01-01,99.9,1014,2015
+Pulau Pinang,overall,2016-01-01,99.9,1054,2016
+Pulau Pinang,overall,2017-01-01,99.9,1058,2017
+Pulau Pinang,overall,2018-01-01,99.9,1073,2018
+Pulau Pinang,overall,2019-01-01,99.9,1093,2019
+Pulau Pinang,overall,2020-01-01,99.9,1108,2020
+Pulau Pinang,overall,2021-01-01,99.9,1126,2021
+Pulau Pinang,overall,2022-01-01,99.9,1178,2022
+Sabah,overall,2000-01-01,73,706,2000
+Sabah,overall,2001-01-01,72.9,705,2001
+Sabah,overall,2002-01-01,72.9,691,2002
+Sabah,overall,2003-01-01,73.9,732,2003
+Sabah,overall,2004-01-01,75.8,736,2004
+Sabah,overall,2005-01-01,75.5,740,2005
+Sabah,overall,2006-01-01,77,743,2006
+Sabah,overall,2007-01-01,76,772,2007
+Sabah,overall,2008-01-01,76,820,2008
+Sabah,overall,2009-01-01,76.3,877,2009
+Sabah,overall,2010-01-01,79.7,931,2010
+Sabah,overall,2011-01-01,80,989,2011
+Sabah,overall,2012-01-01,82,1057,2012
+Sabah,overall,2013-01-01,86,1132,2013
+Sabah,overall,2014-01-01,86.5,1196,2014
+Sabah,overall,2015-01-01,87.9,1229,2015
+Sabah,overall,2016-01-01,89.4,1223,2016
+Sabah,overall,2017-01-01,89,1261,2017
+Sabah,overall,2018-01-01,89,1304,2018
+Sabah,overall,2019-01-01,89,1374,2019
+Sabah,overall,2020-01-01,77,1319,2020
+Sabah,overall,2021-01-01,78,1365,2021
+Sabah,overall,2022-01-01,80.5,1404,2022
+Sarawak,overall,2000-01-01,96,453,2000
+Sarawak,overall,2001-01-01,95.8,476,2001
+Sarawak,overall,2002-01-01,95.8,670,2002
+Sarawak,overall,2003-01-01,95.8,698,2003
+Sarawak,overall,2004-01-01,96,752,2004
+Sarawak,overall,2005-01-01,96,748,2005
+Sarawak,overall,2006-01-01,96,748,2006
+Sarawak,overall,2007-01-01,77,940,2007
+Sarawak,overall,2008-01-01,78,956,2008
+Sarawak,overall,2009-01-01,86.2,1015,2009
+Sarawak,overall,2010-01-01,93.7,1090,2010
+Sarawak,overall,2011-01-01,93.7,1083,2011
+Sarawak,overall,2012-01-01,93.8,1107,2012
+Sarawak,overall,2013-01-01,93.8,1165,2013
+Sarawak,overall,2014-01-01,94,1188,2014
+Sarawak,overall,2015-01-01,87.9,1268,2015
+Sarawak,overall,2016-01-01,89.2,1447,2016
+Sarawak,overall,2017-01-01,89.6,1494,2017
+Sarawak,overall,2018-01-01,89.8,1625,2018
+Sarawak,overall,2019-01-01,81.9,1646,2019
+Sarawak,overall,2020-01-01,83.4,1693,2020
+Sarawak,overall,2021-01-01,83.6,1767,2021
+Sarawak,overall,2022-01-01,83.7,1881,2022
+Selangor,overall,2000-01-01,99,3425,2000
+Selangor,overall,2001-01-01,99.8,3130,2001
+Selangor,overall,2002-01-01,99.7,3345,2002
+Selangor,overall,2003-01-01,99.9,3538,2003
+Selangor,overall,2004-01-01,99.6,3709,2004
+Selangor,overall,2005-01-01,99.5,3728,2005
+Selangor,overall,2006-01-01,99.9,3776,2006
+Selangor,overall,2007-01-01,99.9,3814,2007
+Selangor,overall,2008-01-01,99.9,3889,2008
+Selangor,overall,2009-01-01,99.9,3926,2009
+Selangor,overall,2010-01-01,99.5,4063,2010
+Selangor,overall,2011-01-01,99.8,4143,2011
+Selangor,overall,2012-01-01,99.8,4323,2012
+Selangor,overall,2013-01-01,99.8,4563,2013
+Selangor,overall,2014-01-01,99.8,4594,2014
+Selangor,overall,2015-01-01,99.8,4675,2015
+Selangor,overall,2016-01-01,99.8,4807,2016
+Selangor,overall,2017-01-01,99.8,4842,2017
+Selangor,overall,2018-01-01,99.8,4856,2018
+Selangor,overall,2019-01-01,99.8,4932,2019
+Selangor,overall,2020-01-01,99.8,4967,2020
+Selangor,overall,2021-01-01,99.8,4985,2021
+Selangor,overall,2022-01-01,99.8,5116,2022
+Terengganu,overall,2000-01-01,81,334,2000
+Terengganu,overall,2001-01-01,82.4,349,2001
+Terengganu,overall,2002-01-01,87.7,369,2002
+Terengganu,overall,2003-01-01,87.8,387,2003
+Terengganu,overall,2004-01-01,84.8,399,2004
+Terengganu,overall,2005-01-01,96,424,2005
+Terengganu,overall,2006-01-01,91,465,2006
+Terengganu,overall,2007-01-01,90,525,2007
+Terengganu,overall,2008-01-01,90.4,547,2008
+Terengganu,overall,2009-01-01,90.7,567,2009
+Terengganu,overall,2010-01-01,95.7,612,2010
+Terengganu,overall,2011-01-01,95.8,599,2011
+Terengganu,overall,2012-01-01,96,623,2012
+Terengganu,overall,2013-01-01,96,617,2013
+Terengganu,overall,2014-01-01,96,598,2014
+Terengganu,overall,2015-01-01,96,603,2015
+Terengganu,overall,2016-01-01,96,640,2016
+Terengganu,overall,2017-01-01,96,641,2017
+Terengganu,overall,2018-01-01,96,627,2018
+Terengganu,overall,2019-01-01,96,632,2019
+Terengganu,overall,2020-01-01,96,657,2020
+Terengganu,overall,2021-01-01,96,656,2021
+Terengganu,overall,2022-01-01,96,720,2022
+W.P. Labuan,overall,2000-01-01,100,30,2000
+W.P. Labuan,overall,2001-01-01,100,34,2001
+W.P. Labuan,overall,2002-01-01,100,34,2002
+W.P. Labuan,overall,2003-01-01,100,34,2003
+W.P. Labuan,overall,2004-01-01,100,35,2004
+W.P. Labuan,overall,2005-01-01,100,37,2005
+W.P. Labuan,overall,2006-01-01,100,35,2006
+W.P. Labuan,overall,2007-01-01,100,46,2007
+W.P. Labuan,overall,2008-01-01,100,47,2008
+W.P. Labuan,overall,2009-01-01,100,48,2009
+W.P. Labuan,overall,2010-01-01,100,49,2010
+W.P. Labuan,overall,2011-01-01,100,54,2011
+W.P. Labuan,overall,2012-01-01,100,59,2012
+W.P. Labuan,overall,2013-01-01,100,64,2013
+W.P. Labuan,overall,2014-01-01,100,69,2014
+W.P. Labuan,overall,2015-01-01,100,73,2015
+W.P. Labuan,overall,2016-01-01,100,72,2016
+W.P. Labuan,overall,2017-01-01,100,71,2017
+W.P. Labuan,overall,2018-01-01,100,74,2018
+W.P. Labuan,overall,2019-01-01,100,76,2019
+W.P. Labuan,overall,2020-01-01,100,82,2020
+W.P. Labuan,overall,2021-01-01,100,84,2021
+W.P. Labuan,overall,2022-01-01,100,83,2022
