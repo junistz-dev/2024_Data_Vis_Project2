@@ -28,7 +28,19 @@
           "field": "value",
           "type": "quantitative",
           "axis": {"title": "Water Production"}
-        }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "temporal",
+            "title": "Year"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Water Production (Million Liters per Day)"
+          }
+        ]
       }
     },
     {
@@ -58,7 +70,19 @@
           "field": "value",
           "type": "quantitative",
           "axis": {"tickCount": 3, "grid": false}
-        }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "temporal",
+            "title": "Year"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Water Production (Million Liters per Day)"
+          }
+        ]
       }
     }
   ]
