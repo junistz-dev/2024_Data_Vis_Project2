@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Water Usage for Domestic and Non-Domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
+    "text": "Water Consumption for Domestic and Non-Domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
     "subtitle": "Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
     "font": "serif",
     "fontSize": 20,
