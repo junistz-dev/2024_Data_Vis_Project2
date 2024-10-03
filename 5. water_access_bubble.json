@@ -1,0 +1,100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 600,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2022,
+        "step": 1,
+        "name": "Year:   "
+      }
+    }
+  ],
+  "title": "Water Access and Production per State",
+  "data": {
+    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/5.%20water_access.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.year == Year_selection"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "tooltip": true,
+        "size": 100 
+      },
+      "encoding": {
+        "x": {
+          "field": "proportion",
+          "type": "quantitative",
+          "title": "Access (%)",
+          "scale": {
+            "domain": [45, 100]
+          }
+        },
+        "y": {
+          "field": "water_production",
+          "type": "quantitative",
+          "title": "Water Production",
+          "scale": {
+            "domain": [0, 5500]
+          }
+        },
+        "color": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "proportion", "type": "quantitative", "title": "Access (%)"},
+          {"field": "water_production", "type": "quantitative", "title": "Water Production"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "black"
+        },
+        "x": {
+          "field": "proportion",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "water_production",
+          "type": "quantitative"
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.state == 'Sarawak' || datum.state == 'Selangor' || datum.state == 'Johor' || datum.state == 'Kedah' || datum.state == 'Kelantan' || datum.state == 'Melaka' || datum.state == 'Negeri Sembilan' || datum.state == 'Pahang' || datum.state == 'Perak' || datum.state == 'Perlis' || datum.state == 'Pulau Pinang' || datum.state == 'Sabah' || datum.state == 'Terengganu' || datum.state == 'S.P. Labuan'",
+            "value": 0.6
+          },
+          "value": 0
+        }
+      }
+    }
+  ]
+}
