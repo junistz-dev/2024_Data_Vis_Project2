@@ -4,7 +4,7 @@
     "text": "Water Consumption for Domestic and Non-Domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
     "subtitle": "Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
     "font": "serif",
-    "fontSize": 20,
+    "fontSize": 17,
     "align": "center",
     "subtitleFont": "serif",
     "subtitleFontSize": 14,
@@ -15,7 +15,7 @@
   "params": [
     {
       "name": "Year_selection",
-      "value": 2003, 
+      "value": 2019, 
       "bind": {
         "input": "range",
         "min": 2003,
