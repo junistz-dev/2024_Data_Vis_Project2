@@ -15,7 +15,7 @@
   "params": [
     {
       "name": "Year_selection",
-      "value": 2019, 
+      "value": 2019,
       "bind": {
         "input": "range",
         "min": 2003,
@@ -26,10 +26,10 @@
     },
     {
       "name": "Sector_selection",
-      "value": "domestic",
+      "value": "overall",
       "bind": {
         "input": "select",
-        "options": ["domestic", "nondomestic"],
+        "options": ["overall", "domestic", "nondomestic"],
         "name": "Sector: "
       }
     }
@@ -43,13 +43,13 @@
     {
       "data": {
         "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
-        "format": {"type": "topojson", "feature": "oceans"}
+        "format": { "type": "topojson", "feature": "oceans" }
       },
-      "mark": {"type": "geoshape", "fill": "skyblue"}
+      "mark": { "type": "geoshape", "fill": "skyblue" }
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/southeast-asia.geojson"
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/ne_1.json"
       },
       "mark": {
         "type": "geoshape",
@@ -93,6 +93,94 @@
     },
     {
       "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/sg.json",
+        "format": {
+          "type": "topojson",
+          "feature": "SG"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "gray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "properties.NAME",
+          "type": "nominal",
+          "title": "Singapore"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/th.json",
+        "format": {
+          "type": "topojson",
+          "feature": "TH"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "properties.NAME",
+          "type": "nominal",
+          "title": "Thailand"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/bn.json",
+        "format": {
+          "type": "topojson",
+          "feature": "BN"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "properties.NAME",
+          "type": "nominal",
+          "title": "Brunei"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/id.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ID"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "properties.NAME",
+          "type": "nominal",
+          "title": "Indonesia"
+        }
+      }
+    },
+    {
+      "data": {
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv"
       },
       "transform": [
@@ -131,7 +219,7 @@
           "type": "quantitative",
           "title": "Million Liters per Day",
           "scale": {
-            "domain": [0, 2500],
+            "domain": [0, 4000],
             "scheme": "yellowgreenblue"
           },
           "legend": {
