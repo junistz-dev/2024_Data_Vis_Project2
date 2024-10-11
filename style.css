@@ -16,39 +16,48 @@ body {
 }
 
 h1 {
-  font-size: 2em; /* Larger font size for the title */
-  margin-bottom: 10px; /* Space below title */
   color: rgb(24, 61, 74);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px; /* Larger font size for the title */
 }
 
 h2 {
   font-size: 1.4em; /* Font size for subheading */
   margin: 20px 0 10px; /* Space around subheading */
-  font-family: serif; /* Serif font for the title */
+  font-family: sans-serif; /* Serif font for the title */
   color: rgb(24, 61, 74);
 }
 
 h3 {
-  font-size: 1.2em; /* Font size for sub-subheading */
+  font-size: 1em; /* Font size for sub-subheading */
   margin: 15px 0 5px; /* Space around sub-subheading */
   font-family: sans-serif; /* Sans-serif font for the subheading */
-  color: rgb(24, 61, 74);
-  font-weight: lighter; /* Make the font lighter */
+  color: black;
+  font-weight: normal;
 }
 
-p {
-  font-size: 1.1em; /* Font size for paragraphs */
-  margin-bottom: 15px; /* Space below paragraphs */
-  text-align: justify; /* Justify text alignment for paragraphs */
-  text-justify: inter-word; /* Improve justification */
+.title_split {
+  border: 0; /* Remove default border */
+  height: 2px; /* Set height */
+  background-color: rgb(24, 61, 74); 
+  margin: 20px 0; /* Space around the line */
+  
 }
 
-hr {
+.title_sub_split {
+  border: 0; /* Remove default border */
+  height: 0.4px; /* Set height */
+  background-color: rgb(24, 61, 74);
+  margin: 20px 0; /* Space around the line */
+}
+
+.sub_split{
   border: 0; /* Remove default border */
   height: 1px; /* Set height */
   background-color: #ccc; /* Light gray color */
   margin: 20px 0; /* Space around the line */
 }
+
 
 .vis-container {
   margin: 20px auto; /* Center the visualization */

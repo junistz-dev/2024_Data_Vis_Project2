@@ -52,24 +52,20 @@
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/my.json",
         "format": {
           "type": "topojson",
-          "feature": "states"
+          "feature": "MY"
         }
       },
-      "transform": [
-        {
-          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection",
-          "as": "note"
-        }
-      ],
       "mark": {
         "type": "geoshape",
-        "fill": "lightblue",
+        "fill": "gray",
         "stroke": "white",
         "strokeWidth": 1
       },
       "encoding": {
         "tooltip": {
-          "field": "note"
+          "field": "properties.NAME",
+          "type": "nominal",
+          "title": "MY"
         }
       }
     },
@@ -225,73 +221,6 @@
           "type": "nominal",
           "title": "Cambodia"
         }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv"
-      },
-      "transform": [
-        {
-          "lookup": "state",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/my.json",
-              "format": {
-                "type": "topojson",
-                "feature": "states"
-              }
-            },
-            "key": "properties.Name"
-          },
-          "as": "geo"
-        },
-        {
-          "filter": "datum.year == Year_selection"
-        },
-        {
-          "filter": "datum.sector == Sector_selection"
-        }
-      ],
-      "mark": {
-        "type": "geoshape",
-        "stroke": "#fff"
-      },
-      "encoding": {
-        "shape": {
-          "field": "geo",
-          "type": "geojson"
-        },
-        "color": {
-          "field": "value",
-          "type": "quantitative",
-          "title": "Million Liters per Day",
-          "scale": {
-            "domain": [0, 2500],
-            "scheme": "yellowgreenblue"
-          },
-          "legend": {
-            "titleAlign": "center",
-            "titleAnchor": "middle",
-            "titleFont": "sans-serif",
-            "titleFontSize": 10,
-            "labelFontSize": 10,
-            "labelFontStyle": "italic"
-          }
-        },
-        "tooltip": [
-          {
-            "field": "state",
-            "type": "nominal",
-            "title": "State"
-          },
-          {
-            "field": "value",
-            "type": "quantitative",
-            "title": "Million Liters per Day",
-            "format": ".2f"
-          }
-        ]
       }
     }
   ],

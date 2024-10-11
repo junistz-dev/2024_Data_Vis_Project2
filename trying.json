@@ -23,10 +23,17 @@
   ],
   "projection": {
     "type": "mercator",
-    "scale": 2500,
+    "scale": 2100,
     "center": [107.6, 4.2105]
   },
   "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "skyblue"}
+    },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/southeast-asia.geojson"
@@ -36,12 +43,38 @@
         "fill": "#ddd",
         "stroke": "white",
         "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "states"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightblue",
+        "stroke": "white",
+        "strokeWidth": 1
       },
       "encoding": {
+        "opacity": {
+          "condition": {
+            "test": "datum['properties.Name'] == 'Johor' || datum['properties.Name'] == 'Penang' || datum['properties.Name'] == 'Sarawak' || datum['properties.Name'] == 'Sabah'",
+            "value": 1
+          },
+          "value": 0.3
+        },
         "tooltip": {
-          "field": "properties.name",
-          "type": "nominal",
-          "title": "Country"
+          "field": "note"
         }
       }
     },
@@ -55,19 +88,39 @@
       },
       "transform": [
         {
-          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection + ' ' + datum.Year",
-          "as": "note"
+          "lookup": "properties.Name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/1_water_consumption_domestic.csv"
+            },
+            "key": "state",
+            "fields": ["value"]
+          },
+          "as": "water_data"
+        },
+        {
+          "calculate": "geoCentroid('projection', datum)",
+          "as": "centroid"
         }
       ],
       "mark": {
-        "type": "geoshape",
-        "fill": "lightblue",
-        "stroke": "white",
-        "strokeWidth": 1
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "fill": "black"
       },
       "encoding": {
-        "tooltip": {
-          "field": "note"
+        "text": {
+          "field": "properties.Name",
+          "type": "nominal"
+        },
+        "longitude": {
+          "field": "centroid[0]",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "centroid[1]",
+          "type": "quantitative"
         }
       }
     },
