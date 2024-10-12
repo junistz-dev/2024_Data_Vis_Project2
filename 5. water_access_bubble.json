@@ -13,7 +13,19 @@
         "step": 1,
         "name": "Year:   "
       }
-    }
+    },
+    {
+      "name" : "Population_Above",
+      "value" : 0 ,
+      "bind" : {
+      "input" : "range"
+      ,
+      "min" : 1000 ,
+      "max" : 8000 ,
+      "step" : 1000 ,
+      "name" : "Minimum Population in thousands: "
+      }
+      }
   ],
   "title":{
     "text":"Water Access and Production per State",
@@ -34,7 +46,9 @@
   "transform": [
     {
       "filter": "datum.year == Year_selection"
-    }
+    },
+    { 
+      "filter" : "datum.population > Population_Above" }
   ],
   "layer": [
     {
@@ -66,9 +80,9 @@
         "size": {
           "field": "population",
           "type": "quantitative",
-          "title": "Population",
+          "title": "Population in 1000s",
           "scale": {
-            "domain": [0, 10000],
+            "domain": [0, 8000],
             "range": [50, 2000]
           }
         },
