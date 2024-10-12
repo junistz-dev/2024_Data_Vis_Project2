@@ -21,7 +21,7 @@
       "input" : "range"
       ,
       "min" : 1000 ,
-      "max" : 8000 ,
+      "max" : 6000 ,
       "step" : 1000 ,
       "name" : "Minimum Population in thousands: "
       }
@@ -82,7 +82,7 @@
           "type": "quantitative",
           "title": "Population in 1000s",
           "scale": {
-            "domain": [0, 8000],
+            "domain": [0, 6000],
             "range": [50, 2000]
           }
         },
