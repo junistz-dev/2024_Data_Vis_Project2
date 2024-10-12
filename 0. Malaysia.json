@@ -47,31 +47,10 @@
       },
       "mark": { "type": "geoshape", "fill": "skyblue" }
     },
+    
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/my.json",
-        "format": {
-          "type": "topojson",
-          "feature": "MY"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "gray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "MY"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/sg.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/sg.json",
         "format": {
           "type": "topojson",
           "feature": "SG"
@@ -93,7 +72,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/th.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/th.json",
         "format": {
           "type": "topojson",
           "feature": "TH"
@@ -115,7 +94,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/bn.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/bn.json",
         "format": {
           "type": "topojson",
           "feature": "BN"
@@ -137,7 +116,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/id.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/id.json",
         "format": {
           "type": "topojson",
           "feature": "ID"
@@ -159,7 +138,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/vn.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/vn.json",
         "format": {
           "type": "topojson",
           "feature": "VN"
@@ -181,7 +160,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/mm.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/mm.json",
         "format": {
           "type": "topojson",
           "feature": "MM"
@@ -203,7 +182,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/kh.json",
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/kh.json",
         "format": {
           "type": "topojson",
           "feature": "KH"
