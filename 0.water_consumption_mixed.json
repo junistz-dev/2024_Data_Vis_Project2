@@ -36,10 +36,52 @@
   ],
   "projection": {
     "type": "equalEarth",
-    "scale": 2380,
-    "center": [107.6, 4.2105]
+    "scale": 2200,
+    "center": [109, 3.8]
   },
   "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/output.json",
+        "format": {"type": "topojson", "feature": "my"}
+      },
+      "mark": {
+              "type": "geoshape",
+              "stroke": "white",
+              "strokeWidth":0.8
+      },
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from":{
+            "data": {
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv",
+              "format": {"type": "csv"}
+            },
+            "key": "state",
+            "fields": ["state","sector","value","year"]
+          }
+        },
+        {
+          "filter": "datum.year == Year_selection"
+        }
+      ],
+      "encoding": {
+        "color":{
+          "field": "value",
+          "type": "quantitative",
+          "title": "Water Consumption",
+          "scale": {
+            "scheme": "yellowgreenblue",
+            "domain": [0,4000]}
+                 },
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "State: "},
+        {"field": "value", "type": "quantitative", "title": "Million Liters per Day: "}
+      ]
+      }  
+        
+    },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
@@ -49,84 +91,17 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv"
-      },
-      "transform": [
-        {
-          "lookup": "state",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
-              "format": {
-                "type": "topojson",
-                "feature": "states"
-              }
-            },
-            "key": "properties.Name"
-          },
-          "as": "geo"
-        },
-        {
-          "filter": "datum.year == Year_selection"
-        },
-        {
-          "filter": "datum.sector == Sector_selection"
-        }
-      ],
-      "mark": {
-        "type": "geoshape",
-        "stroke": "#fff"
-      },
-      "encoding": {
-        "shape": {
-          "field": "geo",
-          "type": "geojson"
-        },
-        "color": {
-          "field": "value",
-          "type": "quantitative",
-          "title": "Million Liters per Day",
-          "scale": {
-            "domain": [0, 4000],
-            "scheme": "yellowgreenblue"
-          },
-          "legend": {
-            "titleAlign": "center",
-            "titleAnchor": "middle",
-            "titleFont": "sans-serif",
-            "titleFontSize": 10,
-            "labelFontSize": 10,
-            "labelFontStyle": "italic"
-          }
-        },
-        "tooltip": [
-          {
-            "field": "state",
-            "type": "nominal",
-            "title": "State"
-          },
-          {
-            "field": "value",
-            "type": "quantitative",
-            "title": "Million Liters per Day",
-            "format": ".2f"
-          }
-        ]
-      }
-    },
-    {
-      "data": {
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/sg.json",
         "format": {"type": "topojson", "feature": "SG"}
       },
       "mark": {
         "type": "geoshape",
-        "fill": "gray",
+        "fill": "lightgray",
         "stroke": "white",
         "strokeWidth": 1
       },
       "encoding": {
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Singapore"}
+        "tooltip": {"field": "properties.name", "type": "nominal", "title": "Singapore"}
       }
     },
     {
