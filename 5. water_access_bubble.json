@@ -40,8 +40,7 @@
     {
       "mark": {
         "type": "circle",
-        "tooltip": true,
-        "size": 100 
+        "tooltip": true
       },
       "encoding": {
         "x": {
@@ -64,10 +63,21 @@
           "field": "state",
           "type": "nominal"
         },
+        "size": {
+          "field": "population",
+          "type": "quantitative",
+          "title": "Population",
+          "scale": {
+            "domain": [0, 10000],
+            "range": [50, 2000]
+          }
+        },
         "tooltip": [
           {"field": "state", "type": "nominal", "title": "State"},
           {"field": "proportion", "type": "quantitative", "title": "Access (%)"},
-          {"field": "water_production", "type": "quantitative", "title": "Water Production"}
+          {"field": "water_production", "type": "quantitative", "title": "Water Production"},
+          {"field": "population", "type": "quantitative", "title": "Population in 1000s"}
+
         ]
       }
     },
