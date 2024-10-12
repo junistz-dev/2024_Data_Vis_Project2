@@ -11,7 +11,7 @@
     "subtitleColor": "gray"
   },
   "width": 700,
-  "height": 600,
+  "height": 400,
   "params": [
     {
       "name": "Year_selection",
@@ -35,8 +35,8 @@
     }
   ],
   "projection": {
-    "type": "mercator",
-    "scale": 2100,
+    "type": "equalEarth",
+    "scale": 2380,
     "center": [107.6, 4.2105]
   },
   "layer": [
@@ -49,186 +49,6 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/my.json",
-        "format": {
-          "type": "topojson",
-          "feature": "states"
-        }
-      },
-      "transform": [
-        {
-          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection",
-          "as": "note"
-        }
-      ],
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightblue",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "note"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/sg.json",
-        "format": {
-          "type": "topojson",
-          "feature": "SG"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "gray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Singapore"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/th.json",
-        "format": {
-          "type": "topojson",
-          "feature": "TH"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Thailand"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/bn.json",
-        "format": {
-          "type": "topojson",
-          "feature": "BN"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Brunei"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/id.json",
-        "format": {
-          "type": "topojson",
-          "feature": "ID"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Indonesia"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/vn.json",
-        "format": {
-          "type": "topojson",
-          "feature": "VN"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Vietnam"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/mm.json",
-        "format": {
-          "type": "topojson",
-          "feature": "MM"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Myanmar"
-        }
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/kh.json",
-        "format": {
-          "type": "topojson",
-          "feature": "KH"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {
-          "field": "properties.NAME",
-          "type": "nominal",
-          "title": "Cambodia"
-        }
-      }
-    },
-    {
-      "data": {
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv"
       },
       "transform": [
@@ -236,7 +56,7 @@
           "lookup": "state",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/my.json",
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
               "format": {
                 "type": "topojson",
                 "feature": "states"
@@ -267,7 +87,7 @@
           "type": "quantitative",
           "title": "Million Liters per Day",
           "scale": {
-            "domain": [0, 2500],
+            "domain": [0, 4000],
             "scheme": "yellowgreenblue"
           },
           "legend": {
@@ -292,6 +112,111 @@
             "format": ".2f"
           }
         ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/sg.json",
+        "format": {"type": "topojson", "feature": "SG"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "gray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Singapore"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/th.json",
+        "format": {"type": "topojson", "feature": "TH"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Thailand"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/bn.json",
+        "format": {"type": "topojson", "feature": "BN"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Brunei"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/id.json",
+        "format": {"type": "topojson", "feature": "ID"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Indonesia"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/vn.json",
+        "format": {"type": "topojson", "feature": "VN"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Vietnam"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/mm.json",
+        "format": {"type": "topojson", "feature": "MM"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Myanmar"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/kh.json",
+        "format": {"type": "topojson", "feature": "KH"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Cambodia"}
       }
     }
   ],
