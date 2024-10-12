@@ -3,9 +3,9 @@
   "width": 700,
   "height": 400,
   "title": {
-  "text": "Water Production in Malaysia by State",
-  "subtitle": "Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
-  "font": "serif",
+    "text": "Water Production in Malaysia by State",
+    "subtitle": "Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
+    "font": "serif",
     "fontSize": 20,
     "align": "center",
     "subtitleFont": "serif",
@@ -27,46 +27,104 @@
         "step": 100,
         "name": "Minimum Production: "
       }
+    },
+    {
+      "name": "minYear",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2022,
+        "step": 1,
+        "name": "Minimum Year: "
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2022,
+        "step": 1,
+        "name": "Maximum Year: "
+      }
     }
   ],
   "transform": [
     {
-      "filter": "datum.value >= value"
+      "filter": "datum.value >= value && datum.year >= minYear && datum.year <= maxYear"
     }
   ],
-  "mark": "line",
-  "encoding": {
-    "x": {
-      "field": "year",
-      "type": "ordinal",  
-      "title": "Year"
-    },
-    "y": {
-      "field": "value",
-      "type": "quantitative",
-      "title": "Water Production"
-    },
-    "color": {
-      "field": "state",
-      "type": "nominal",
-      "title": "State"
-    },
-    "tooltip": [
-      {
-        "field": "state",
-        "type": "nominal",
-        "title": "State"
-      },
-      {
-        "field": "year",
-        "type": "ordinal",
-        "title": "Year"
-      },
-      {
-        "field": "value",
-        "type": "quantitative",
-        "title": "Water Production"
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",  
+          "title": "Year"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Water Production"
+        },
+        "color": {
+          "field": "state",
+          "type": "nominal",
+          "title": "State"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Water Production"
+          }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 5,
+        "dy": -5,
+        "fontSize": 12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "black"
+        }
+      },
+      "transform": [
+        {
+          "filter": "(datum.state == 'Selangor' || datum.state == 'Johor') && datum.year == '2014'"
+        }
+      ]
+    }
+  ]
 }
