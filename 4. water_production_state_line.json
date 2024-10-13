@@ -13,7 +13,7 @@
     "subtitleColor": "gray"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/4.%20water_production_state.csv",
+    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/csv/4.%20water_production_state.csv",
     "format": {"type": "csv"}
   },
   "params": [

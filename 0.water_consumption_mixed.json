@@ -73,7 +73,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv"
+        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/csv/0.water_consumption.csv"
       },
       "transform": [
         {

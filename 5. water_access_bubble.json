@@ -38,7 +38,7 @@
     "subtitleColor":"gray"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/5.%20water_access.csv",
+    "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/csv/5.%20water_access.csv",
     "format": {
       "type": "csv"
     }
