@@ -1,5 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 730,
+  "height": 300,
+ 
   "title": {
     "text": "Water Consumption for Domestic and Non-Domestic in Malaysia by State (Million Liters per Day, 2003-2022)",
     "subtitle": "Data for W.P. Kuala Lumpur and W.P. Putrajaya are subsumed under Selangor.",
@@ -8,14 +11,12 @@
     "align": "center",
     "subtitleFont": "serif",
     "subtitleFontSize": 14,
-    "subtitleColor": "gray"
+    "subtitleColor": "black"
   },
-  "width": 700,
-  "height": 400,
   "params": [
     {
       "name": "Year_selection",
-      "value": 2019, 
+      "value": 2005,
       "bind": {
         "input": "range",
         "min": 2003,
@@ -26,110 +27,26 @@
     },
     {
       "name": "Sector_selection",
-      "value": "domestic",
+      "value": "overall",
       "bind": {
         "input": "select",
-        "options": ["domestic", "nondomestic"],
+        "options": [
+          "overall",
+          "domestic",
+          "nondomestic"
+        ],
         "name": "Sector: "
       }
     }
   ],
   "projection": {
-    "type": "equalEarth",
-    "scale": 2200,
-    "center": [109, 3.8]
+    "type": "mercator",
+    "scale": 2100,
+    "center": [107.6, 4.2105]
   },
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/output.json",
-        "format": {"type": "topojson", "feature": "my"}
-      },
-      "mark": {
-              "type": "geoshape",
-              "stroke": "white",
-              "strokeWidth":0.8
-      },
-      "transform": [
-        {
-          "lookup": "properties.name",
-          "from":{
-            "data": {
-              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv",
-              "format": {"type": "csv"}
-            },
-            "key": "state",
-            "fields": ["state","sector","value","year"]
-          }
-        },
-        {
-          "filter": "datum.year == Year_selection"
-        }
-      ],
-      "encoding": {
-        "color":{
-          "field": "value",
-          "type": "quantitative",
-          "title": "Water Consumption",
-          "scale": {
-            "scheme": "yellowgreenblue",
-            "domain": [0,4000]}
-                 },
-      "tooltip": [
-        {"field": "properties.name", "type": "nominal", "title": "State: "},
-        {"field": "value", "type": "quantitative", "title": "Million Liters per Day: "}
-      ]
-      }  
-        
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
-        "format": {"type": "topojson", "feature": "oceans"}
-      },
-      "mark": {"type": "geoshape", "fill": "skyblue"}
-    },
-    {
-      "data": {
-<<<<<<< HEAD
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/sg.json",
-        "format": {"type": "topojson", "feature": "SG"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-=======
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/southeast-asia.geojson"
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "#ddd",
->>>>>>> parent of 8abf0dd (20241011 Map O , data X)
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-<<<<<<< HEAD
-        "tooltip": {"field": "properties.name", "type": "nominal", "title": "Singapore"}
-=======
-        "tooltip": {
-          "field": "properties.name",
-          "type": "nominal",
-          "title": "Country"
-        }
->>>>>>> parent of 8abf0dd (20241011 Map O , data X)
-      }
-    },
-    {
-      "data": {
-<<<<<<< HEAD
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/th.json",
-        "format": {"type": "topojson", "feature": "TH"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-=======
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
         "format": {
           "type": "topojson",
@@ -138,106 +55,53 @@
       },
       "transform": [
         {
-          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection",
+          "calculate": "'Data is not available in ' + datum.properties.Name + ' ' + Year_selection + ' ' + datum.Year",
           "as": "note"
         }
       ],
       "mark": {
         "type": "geoshape",
         "fill": "lightblue",
->>>>>>> parent of 8abf0dd (20241011 Map O , data X)
         "stroke": "white",
         "strokeWidth": 1
       },
       "encoding": {
-<<<<<<< HEAD
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Thailand"}
-=======
         "tooltip": {
           "field": "note"
         }
->>>>>>> parent of 8abf0dd (20241011 Map O , data X)
       }
     },
     {
       "data": {
-<<<<<<< HEAD
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/bn.json",
-        "format": {"type": "topojson", "feature": "BN"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Brunei"}
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/id.json",
-        "format": {"type": "topojson", "feature": "ID"}
-=======
         "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/0.water_consumption.csv"
->>>>>>> parent of 8abf0dd (20241011 Map O , data X)
       },
+      "transform": [
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/malaysia.topojson",
+              "format": {
+                "type": "topojson",
+                "feature": "states"
+              }
+            },
+            "key": "properties.Name"
+          },
+          "as": "geo"
+        },
+        {
+          "filter": "datum.year == Year_selection"
+        },
+        {
+          "filter": "Sector_selection == 'overall' || datum.sector == Sector_selection"
+        }
+      ],
       "mark": {
         "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
+        "stroke": "#fff"
       },
       "encoding": {
-<<<<<<< HEAD
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Indonesia"}
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/vn.json",
-        "format": {"type": "topojson", "feature": "VN"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Vietnam"}
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/mm.json",
-        "format": {"type": "topojson", "feature": "MM"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Myanmar"}
-      }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/junistz-dev/2024_Data_Vis_Project2/refs/heads/main/country%20detail%20json/kh.json",
-        "format": {"type": "topojson", "feature": "KH"}
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white",
-        "strokeWidth": 1
-      },
-      "encoding": {
-        "tooltip": {"field": "properties.NAME", "type": "nominal", "title": "Cambodia"}
-=======
         "shape": {
           "field": "geo",
           "type": "geojson"
@@ -247,7 +111,7 @@
           "type": "quantitative",
           "title": "Million Liters per Day",
           "scale": {
-            "domain": [0, 2500],
+            "domain": [0, 4500],
             "scheme": "yellowgreenblue"
           },
           "legend": {
@@ -256,7 +120,8 @@
             "titleFont": "sans-serif",
             "titleFontSize": 10,
             "labelFontSize": 10,
-            "labelFontStyle": "italic"
+            "labelFontStyle": "italic",
+            "labelColor": "#000000"
           }
         },
         "tooltip": [
@@ -266,19 +131,19 @@
             "title": "State"
           },
           {
+            "field": "sector",
+            "type": "nominal",
+            "title": "Sector"
+          },
+          {
             "field": "value",
             "type": "quantitative",
             "title": "Million Liters per Day",
             "format": ".2f"
           }
         ]
->>>>>>> parent of 8abf0dd (20241011 Map O , data X)
       }
     }
   ],
-  "config": {
-    "view": {
-      "stroke": "transparent"
-    }
-  }
+  "config": {}
 }
